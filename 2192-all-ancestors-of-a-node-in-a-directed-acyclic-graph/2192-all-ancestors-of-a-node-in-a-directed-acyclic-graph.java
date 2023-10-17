@@ -1,35 +1,33 @@
 class Solution {
     public List<List<Integer>> getAncestors(int n, int[][] edges) {
-        List<List<Integer>> al = new ArrayList<>();
+        List<List<Integer>> ans = new ArrayList<>();
         ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
-        for(int i = 0;i < n;i++){
-            al.add(new ArrayList<>());
+        
+        for(int i = 0; i < n;i++){
+            ans.add(new ArrayList<>());
             adj.add(new ArrayList<>());
         }
         
-        for(int i=0;i < edges.length;i++){
-            int u = edges[i][0];
-            int v = edges[i][1];
-            
-            adj.get(u).add(v);
+        //Build the adjacency list
+        for(int [] a : edges) {
+            adj.get(a[0]).add(a[1]);
         }
         
         for(int i = 0;i < n;i++){
-            dfs(i,i,new boolean[n],adj,al);
+            dfs(i,i,new boolean[n],adj,ans);
         }
-
-        return al;
+        
+        return ans;
     }
     
-    public void dfs(int u,int parent, boolean [] visited, ArrayList<ArrayList<Integer>> adj, List<List<Integer>> al){
+    public void dfs(int u, int anscestor,boolean []visited,ArrayList<ArrayList<Integer>> adj,List<List<Integer>> ans){
         visited[u] = true;
         
         for(int v : adj.get(u)){
-            if(visited[v])
-                continue;
-            al.get(v).add(parent);
-            dfs(v,parent,visited,adj,al);
+            if(!visited[v]){
+                ans.get(v).add(anscestor);
+                dfs(v,anscestor,visited,adj,ans);
+            }
         }
     }
-    
 }
