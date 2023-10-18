@@ -23,10 +23,11 @@ class Solution {
             n = n-l.size();
             ArrayList<Integer> nl = new ArrayList<>();
             for(int v : l){
-                Integer nei = adj.get(v).iterator().next();
-                adj.get(nei).remove(v);
+                for(int nei : adj.get(v)){
+                    adj.get(nei).remove(v);
                 if(adj.get(nei).size() == 1)
-                    nl.add(nei);
+                    nl.add(nei);   
+                }
             }
             l = nl;
         }
