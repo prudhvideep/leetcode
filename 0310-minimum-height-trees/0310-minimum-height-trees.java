@@ -3,23 +3,19 @@ class Solution {
         if (n == 1) return Collections.singletonList(0);
         List <Integer> ans = new ArrayList<>();
         
-        int [] count = new int[n];
         ArrayList<HashSet<Integer>> adj = new ArrayList<>();
         for(int  i = 0;i < n;i++){
             adj.add(new HashSet<>());
         }
         
-        for(int [] a : edges){
-            count[a[0]]++;
-            count[a[1]]++;
-            
+        for(int [] a : edges){    
             adj.get(a[0]).add(a[1]);
             adj.get(a[1]).add(a[0]);
         }
         
         ArrayList <Integer> l = new ArrayList<>();
         for(int i = 0;i < n;i++){
-            if(count[i] == 1)
+            if(adj.get(i).size() == 1)
                 l.add(i);
         }
         
