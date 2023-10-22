@@ -10,7 +10,7 @@ class Solution {
             b = b << 1;
         
         for(int n : nums){
-            if((n & b) != 0)
+            if((n & b) == b)
                 x ^= n;
             else
                 y ^= n;
