@@ -18,10 +18,7 @@ class Solution {
         if(root1 == null || root2 == null)
             return (root1 == root2);
         
-        if(root1.val != root2.val)
-            return false;
-        
-        return isSymmetricUtil(root1.left,root2.right) && isSymmetricUtil(root1.right,root2.left);
+        return (root1.val == root2.val) && isSymmetricUtil(root1.left,root2.right) && isSymmetricUtil(root1.right,root2.left);
         
             
     }
