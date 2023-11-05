@@ -1,11 +1,11 @@
 class Solution {
     public String addBinary(String a, String b) {
-        int i = a.length()-1, j = b.length()-1, s = 0, c = 0;
+        int i = a.length()-1, j = b.length()-1, s = 0, c = 0,x,y;
         StringBuffer sb = new StringBuffer();
         
         while(i >= 0 && j >= 0){
-            int x = (a.charAt(i) == '0') ? 0 : 1;
-            int y = (b.charAt(j) == '0') ? 0 : 1;
+            x = (a.charAt(i) == '0') ? 0 : 1;
+            y = (b.charAt(j) == '0') ? 0 : 1;
                         
             s = (x+y+c)%2;
             c = (x+y+c)/2;
@@ -16,14 +16,14 @@ class Solution {
         }
         
         while(i >= 0){
-            int x = (a.charAt(i) == '0') ? 0 : 1;
+            x = (a.charAt(i) == '0') ? 0 : 1;
             s = (x+c)%2;
             c = (x+c)/2;
             sb.insert(0,(s == 1)?'1':'0');
             i--;
         }
         while(j >= 0){
-            int y = (b.charAt(j) == '0') ? 0 : 1;
+            y = (b.charAt(j) == '0') ? 0 : 1;
             s = (y+c)%2;
             c = (y+c)/2;
             sb.insert(0,(s == 1)?'1':'0');
