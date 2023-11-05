@@ -9,9 +9,10 @@ class Solution {
         int l = 0;
         for(int i : a){
             l+=  i/2 * 2;
-            if(l % 2 == 0 && i%2 == 1)
-                l++;
         }
+        
+        if(l < s.length()) l++;
+        
         return l;
         
     }
