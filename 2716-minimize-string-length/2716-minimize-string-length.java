@@ -1,14 +1,15 @@
 class Solution {
     public int minimizedStringLength(String s) {
-        Set <Character> st = new HashSet<>();
-        StringBuffer sb = new StringBuffer();
-        
+        boolean [] ch = new boolean[26];
         for(char c : s.toCharArray()){
-            if(!st.contains(c)){
-                st.add(c);
-                sb.append(c);
+            if(!ch[c-'a']){
+                ch[c-'a'] = true;
             }
         }
-        return sb.length();
+        int count = 0;
+        for(int i = 0; i < 26;i++){
+            if(ch[i]){count++;}
+        }
+        return count;
     }
 }
