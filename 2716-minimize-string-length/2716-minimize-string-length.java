@@ -1,7 +1,8 @@
 class Solution {
     public int minimizedStringLength(String s) {
         boolean [] ch = new boolean[26];
-        for(char c : s.toCharArray()){
+        for(int i = 0; i< s.length();i++){
+            char c = s.charAt(i);
             if(!ch[c-'a']){
                 ch[c-'a'] = true;
             }
