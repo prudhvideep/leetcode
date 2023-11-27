@@ -22,14 +22,16 @@ class Solution {
         
         Queue <TreeNode> q = new ArrayDeque<>();
         List <Integer> l = new ArrayList<>();
+        int size;
+        TreeNode temp;
         
         q.add(root);
         
         while(!q.isEmpty()){
-            int size = q.size();
+            size = q.size();
             
             while(size-- > 0){
-                TreeNode temp = q.poll();
+                temp = q.poll();
                 l.add(temp.val);
                 
                 if(temp.left != null)
