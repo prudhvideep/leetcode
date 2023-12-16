@@ -15,7 +15,7 @@ class Solution {
     }
     
     public int[][] kClosest(int[][] points, int k) {
-        int [][] r  = new int[k][2];
+        int [][] r  = new int[k][];
         
         PriorityQueue<Pair> pq = new PriorityQueue<>((a,b)->{
             return Double.compare(b.d,a.d);
