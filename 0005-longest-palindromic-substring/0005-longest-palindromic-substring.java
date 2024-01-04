@@ -4,7 +4,7 @@ class Solution {
         int maxOddLen = 1, maxEvenLen = 0;
         int oddStId = 0, oddEnId = 0, evenStId = 0, evenEnId = 0;
         
-        for(int i = 0;i < s.length();i++){
+        for(int i = 0;i < s.length()-1;i++){
             
             int l = i-1, h = i+1, len = 1;
             
@@ -17,10 +17,8 @@ class Solution {
                 }
                 l--;h++;
             }
-        }
-                  
-        for(int i = 0;i < s.length()-1;i++){
-            int l = i, h = i+1, len = 0;
+            
+            l = i; h = i+1; len = 0;
             
             while((l >= 0 && h < s.length()) && (s.charAt(l) == s.charAt(h))){
                 len+=2;
@@ -32,10 +30,7 @@ class Solution {
                 l--;h++;
             }
         }
-        
-        //System.out.println("oddStId : " +  oddStId + " oddEnId : " + oddEnId);
-        //System.out.println("evenStId : " +  evenStId + " evenEnId : " + evenEnId);
-        
+                  
         if(maxOddLen > maxEvenLen)
             return s.substring(oddStId,oddEnId+1);
         
