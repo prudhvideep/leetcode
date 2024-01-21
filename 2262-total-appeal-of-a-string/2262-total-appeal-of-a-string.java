@@ -1,16 +1,15 @@
 class Solution {
     public long appealSum(String s) {
-        long tot = 0, cur = 0;
-        
-        int [] pos = new int[26];
+        long curApp = 0, totApp = 0;
+        int pos [] = new int[26];
         
         for(int i = 0;i < s.length();i++){
-            int id = s.charAt(i)-'a';
-            cur += i - pos[id]+1;
+            int id = s.charAt(i) - 'a';
+            
+            curApp += i - pos[id] + 1;
             pos[id] = i+1;
-            tot+=cur;
+            totApp += curApp;
         }
-        
-        return tot;
+        return totApp;
     }
 }
