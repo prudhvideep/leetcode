@@ -1,15 +1,19 @@
 class Solution {
     public int maxProduct(int[] nums) {
-        int max_here = nums[0], min_here = nums[0], max_global = nums[0];
+        int n = nums.length;
+        if(n == 1)return nums[0];
+        int l = nums[0] == 0 ? 1 : nums[0], r = nums[n-1] == 0 ? 1 : nums[n-1];
+        int maxProd = Math.max(nums[0],nums[n-1]);
         
-        for(int i = 1;i < nums.length;i++){
-            int temp = Math.max(nums[i], Math.max((max_here*nums[i]),(min_here*nums[i])));
-            min_here = Math.min(nums[i], Math.min((min_here*nums[i]),(max_here*nums[i])));
-            max_here = temp;
+        for(int i = 1;i < n;i++){
+            l = nums[i]*l;
+            r = nums[n-i-1]*r;
+            maxProd = Math.max(maxProd,Math.max(l,r));
             
-            max_global = Math.max(max_global,Math.max(max_here,min_here));
+            if(nums[i] == 0) l = 1;
+            if(nums[n-i-1] == 0) r =1;
         }
         
-        return max_global;
-}
+        return maxProd;
+    }
 }
