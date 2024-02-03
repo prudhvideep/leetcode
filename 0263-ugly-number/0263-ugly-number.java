@@ -5,21 +5,12 @@ class Solution {
         if(n == 1)
             return true;
         
-        while(n % 2 == 0){
-            n = n/2;
+        for(int i = 2;i <= 5; i++){
+            while(n%i == 0){
+                n/=i;
+            }
         }
         
-        while(n % 3 == 0){
-            n = n/3;
-        }
-        
-        while(n % 5 == 0){
-            n = n /5;
-        }
-        
-        if(n == 1)
-            return true;
-        
-        return false;
+        return (n == 1) ? true : false;
     }
 }
