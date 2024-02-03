@@ -5,7 +5,7 @@ class Solution {
         boolean seive[] = new boolean[n+1];
         Arrays.fill(seive,true);
             
-        for(int i = 2;i <= n;i++){
+        for(int i = 2;i < n;i++){
             if(seive[i] == true){
                 int count = 2;
                 while(i * count <= n){
