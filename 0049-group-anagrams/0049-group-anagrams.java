@@ -1,22 +1,10 @@
 class Solution {
     public String getCount(String str){
-        StringBuffer sb = new StringBuffer();
-        int a[] = new int[26];
-        for(char c : str.toCharArray()){
-            a[c-'a']++;
-        }
+        char [] ca = str.toCharArray();
+        Arrays.sort(ca);
+        String retStr = new String(ca);
         
-        int count = 0;
-        for(int i = 0;i < 26;i++){
-            count = a[i];
-            int temp = ((int) 'a') + i;
-            char c = (char) temp;
-            while(count-- > 0){
-                sb.append(c);
-            }
-        }
-        
-        return sb.toString();
+        return retStr;
     }
     
     public List<List<String>> groupAnagrams(String[] strs) {
