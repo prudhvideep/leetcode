@@ -1,8 +1,6 @@
 class Solution {
     public int countSubstrings(String s) {
-        int count = 0, n = s.length();
-        char [] chAr = s.toCharArray();
-        
+        int count = 0, n = s.length();        
         //Odd number palindromes
         for(int i = 0;i < n;i++){
             int j = i;
