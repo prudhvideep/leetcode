@@ -5,15 +5,13 @@ class Solution {
         if(sa.length != p.length())
             return false;
         
-        HashMap<String,Integer> sM = new HashMap<>(200);
-        HashMap<Character,Integer> pM = new HashMap<>(200);
+        HashMap<String,Integer> sM = new HashMap<>();
+        HashMap<Character,Integer> pM = new HashMap<>();
         
         for(int i = 0;i < p.length();i++){
-            int a = sM.getOrDefault(sa[i],0);
-            int b = pM.getOrDefault(p.charAt(i),0);
-            if(a != b){
-                return false;   
-            }            
+            if(!sM.getOrDefault(sa[i],0).equals(pM.getOrDefault(p.charAt(i),0)))
+                return false;
+            
             sM.put(sa[i],i+1);
             pM.put(p.charAt(i),i+1);
         }
