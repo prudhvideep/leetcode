@@ -15,7 +15,7 @@ class Solution {
             return;
         }
         
-        for(int i = id; i <= n;i++){
+        for(int i = id; i <= n-k+1;i++){
             com.add(i);
             genCom(i+1,n,k-1,com);
             com.remove(com.size()-1);
