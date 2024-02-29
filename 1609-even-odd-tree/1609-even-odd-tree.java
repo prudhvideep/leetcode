@@ -15,31 +15,22 @@
  */
 class Solution {
     public boolean isEvenOddTree(TreeNode root) {
+        
+        
         Queue <TreeNode> q = new LinkedList<>();
         q.add(root);
         int level = 0,prev;
         while(!q.isEmpty()){
            int n = q.size();
-           if(level%2 == 0){
-               prev = Integer.MIN_VALUE;
-           }else{
-               prev = Integer.MAX_VALUE;
-           }
+           prev = (level%2 == 0) ? Integer.MIN_VALUE : Integer.MAX_VALUE;
            while(n > 0){
                TreeNode temp = q.poll();
-               //System.out.println(temp.val);
                if(level%2 == 1){
-                   if(temp.val%2 != 0){
-                       return false;
-                   }
-                   if(prev <= temp.val){
+                   if(temp.val%2 != 0 || prev <= temp.val){
                        return false;
                    }
                }else if(level%2 == 0){
-                   if(temp.val%2 == 0){
-                       return false;
-                   }
-                   if(prev >= temp.val){
+                   if(temp.val%2 == 0 || prev >= temp.val){
                        return false;
                    }
                }
@@ -52,7 +43,7 @@ class Solution {
                
                n--;
            }
-           level++;
+           ++level;
         }
         return true;
     }
