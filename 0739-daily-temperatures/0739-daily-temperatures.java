@@ -9,7 +9,7 @@ class Solution {
     }
     
     public int[] dailyTemperatures(int[] temperatures) {
-        int n = temperatures.length;
+        int n = temperatures.length,id;
         int [] ret = new int[n];
         
         Stack <pair> s = new Stack<>();
@@ -17,7 +17,7 @@ class Solution {
         
         for(int i = 1;i < n;i++){
            while(!s.isEmpty() && s.peek().temp < temperatures[i]){
-               int id = s.peek().id;
+               id = s.peek().id;
                ret[id] = i - id;
                s.pop();
            }
