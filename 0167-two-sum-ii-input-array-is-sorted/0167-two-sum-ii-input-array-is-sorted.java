@@ -4,10 +4,10 @@ class Solution {
         
         while(l < h){
             if(numbers[l]+numbers[h] == target){
-                break;
+                return new int[] {l+1,h+1};
             }else if(numbers[l]+numbers[h] < target){
                 l++;
-            }else if(numbers[l]+numbers[h] > target){
+            }else {
                 h--;
             }
         }
