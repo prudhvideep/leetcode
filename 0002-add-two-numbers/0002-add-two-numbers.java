@@ -14,11 +14,11 @@ class Solution {
         ListNode t2 = l2;
         ListNode sumList = null, t3 = null,t = null;
             
-        int sum = 0, car = 0;
+        int sum = 0, car = 0,a,b;
         
         while(t1 != null && t2 != null){
-            int a = t1.val;
-            int b = t2.val;
+            a = t1.val;
+            b = t2.val;
             
             sum = (a+b+car)%10;
             car = (a+b+car)/10;
@@ -38,7 +38,7 @@ class Solution {
         t = (t1 != null) ? t1 : t2;
         
         while(t != null){
-            int a  = t.val;
+            a  = t.val;
             
             sum = (a+car)%10;
             car = (a+car)/10;
