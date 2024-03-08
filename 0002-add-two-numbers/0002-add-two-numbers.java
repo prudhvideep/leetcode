@@ -10,67 +10,53 @@
  */
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode temp1 = l1;
-        ListNode temp2 = l2;
-        ListNode sumList = null, temp3 = null;
+        ListNode t1 = l1;
+        ListNode t2 = l2;
+        ListNode sumList = null, t3 = null,t = null;
             
         int sum = 0, car = 0;
         
-        while(temp1 != null && temp2 != null){
-            int a = temp1.val;
-            int b = temp2.val;
+        while(t1 != null && t2 != null){
+            int a = t1.val;
+            int b = t2.val;
             
             sum = (a+b+car)%10;
             car = (a+b+car)/10;
             
             if(sumList == null){
                 sumList = new ListNode(sum);
-                temp3 = sumList;
+                t3 = sumList;
             }else{
-                temp3.next = new ListNode(sum);
-                temp3 = temp3.next;
+                t3.next = new ListNode(sum);
+                t3 = t3.next;
             }
             
-            temp1 = temp1.next;
-            temp2 = temp2.next;
+            t1 = t1.next;
+            t2 = t2.next;
         }
         
-        while(temp1 != null){
-            int a  = temp1.val;
+        t = (t1 != null) ? t1 : t2;
+        
+        while(t != null){
+            int a  = t.val;
             
             sum = (a+car)%10;
             car = (a+car)/10;
             
             if(sumList == null){
                 sumList = new ListNode(sum);
-                temp3 = sumList;
+                t3 = sumList;
             }else{
-                temp3.next = new ListNode(sum);
-                temp3 = temp3.next;
+                t3.next = new ListNode(sum);
+                t3 = t3.next;
             }
             
-            temp1 = temp1.next;
+            t = t.next;
         }
         
-        while(temp2 != null){
-            int b  = temp2.val;
-            
-            sum = (b+car)%10;
-            car = (b+car)/10;
-            
-            if(sumList == null){
-                sumList = new ListNode(sum);
-                temp3 = sumList;
-            }else{
-                temp3.next = new ListNode(sum);
-                temp3 = temp3.next;
-            }
-            
-            temp2 = temp2.next;
-        }
         
         if(car != 0){
-            temp3.next = new ListNode(car);            
+            t3.next = new ListNode(car);            
             return sumList;
         }
         return sumList;
