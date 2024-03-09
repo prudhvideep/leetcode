@@ -2,9 +2,6 @@ class Solution {
     public int time = -1,r = 0,c = 0;
     
     public int orangesRotting(int[][] grid) {
-        if(grid == null)
-            return -1;
-        
         r = grid.length; c = grid[0].length;
         int maxTime = Integer.MIN_VALUE;
         int fo = getFreshOrangeCount(grid);
