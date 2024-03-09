@@ -1,5 +1,5 @@
 class Solution {
-    public int time = -1, or = 0,r = 0,c = 0;
+    public int time = -1,r = 0,c = 0;
     
     public int orangesRotting(int[][] grid) {
         r = grid.length; c = grid[0].length;
@@ -14,8 +14,6 @@ class Solution {
         for(int i = 0;i < r;i++){
             for(int j = 0;j < c;j++){
                 if(grid[i][j] == 2){
-                    //or = 0;
-                    //dfs(i,j,grid,new int[r][c]);
                     dist[i][j] = 0;
                     bfs(i,j,grid,new int[r][c],dist);   
                 }
@@ -25,7 +23,6 @@ class Solution {
         for(int i = 0;i < r;i++){
             for(int j = 0;j < c;j++){
                 if(grid[i][j] == 1){
-                    //System.out.println(dist[i][j]);
                     maxTime = Math.max(maxTime,dist[i][j]);
                 }
             }
@@ -51,22 +48,6 @@ class Solution {
             }
         }
         return fc;
-    }
-    
-    public void dfs(int i, int j, int [][] grid,int [][] visited){
-        if(visited[i][j] == 1)
-            return;
-        
-        visited[i][j] = 1;
-        
-        if(grid[i][j] == 1){
-           or++; 
-        }
-        
-        if(i-1 >= 0 && visited[i-1][j] == 0 && grid[i-1][j] == 1) {dfs(i-1,j,grid,visited);}
-        if(i+1 < r && visited[i+1][j] == 0 && grid[i+1][j] == 1) {dfs(i+1,j,grid,visited);}
-        if(j-1 >= 0 && visited[i][j-1] == 0 && grid[i][j-1] == 1) {dfs(i,j-1,grid,visited);}
-        if(j+1 < c && visited[i][j+1] == 0 && grid[i][j+1] == 1) {dfs(i,j+1,grid,visited);}        
     }
     
     public void bfs(int i, int j, int [][] grid,int [][] visited, int[][] dist){
