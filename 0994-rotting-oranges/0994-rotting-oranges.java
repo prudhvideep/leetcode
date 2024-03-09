@@ -51,48 +51,39 @@ class Solution {
         }
     }
     
-    class pair{
-        int i;
-        int j;
-        public pair(int a,int b){
-            this.i = a;
-            this.j = b;
-        }
-    }
-    
     public void bfs(int i, int j, int [][] grid,int [][] visited, int[][] dist){
-        Queue<pair> q = new ArrayDeque<>();
-        q.add(new pair(i,j));
+        Queue<int []> q = new ArrayDeque<>();
+        q.add(new int [] {i,j});
         
         while(!q.isEmpty()){
             int n = q.size();
             while(n > 0){
-                pair p = q.poll();
-                int a = p.i;
-                int b = p.j;
+                int [] p = q.poll();
+                int a = p[0];
+                int b = p[1];
                 if(a-1 >= 0 && visited[a-1][b] == 0 && grid[a-1][b] == 1) 
                 { 
                     visited[a-1][b] = 1;
                     dist[a-1][b] = Math.min(dist[a-1][b],1+dist[a][b]);
-                    q.add(new pair(a-1,b));
+                    q.add(new int[] {a-1,b});
                 }
                 if(a+1 < r && visited[a+1][b] == 0 && grid[a+1][b] == 1) 
                 {
                     visited[a+1][b] = 1;
                     dist[a+1][b] = Math.min(dist[a+1][b],1+dist[a][b]);
-                    q.add(new pair(a+1,b));
+                    q.add(new int[] {a+1,b});
                 }
                 if(b-1 >= 0 && visited[a][b-1] == 0 && grid[a][b-1] == 1) 
                 {
                     visited[a][b-1] = 1;
                     dist[a][b-1] = Math.min(dist[a][b-1],1+dist[a][b]);
-                    q.add(new pair(a,b-1));
+                    q.add(new int[] {a,b-1});
                 }
                 if(b+1 < c && visited[a][b+1] == 0 && grid[a][b+1] == 1)
                 {
                     visited[a][b+1] = 1;
                     dist[a][b+1] = Math.min(dist[a][b+1],1+dist[a][b]);
-                    q.add(new pair(a,b+1));
+                    q.add(new int[] {a,b+1});
                 }
                 n--;
             }
