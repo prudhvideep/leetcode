@@ -60,7 +60,7 @@ class Solution {
     }
     
     public void bfs(int i, int j, int [][] grid,int [][] visited, int[][] dist){
-        Queue<pair> q = new LinkedList<>();
+        Queue<pair> q = new ArrayDeque<>();
         q.add(new pair(i,j));
         
         while(!q.isEmpty()){
