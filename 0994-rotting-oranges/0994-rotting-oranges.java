@@ -7,6 +7,7 @@ class Solution {
         int fo = getFreshOrangeCount(grid);
         int dist[][] = new int[r][c];
         initDist(dist);
+        int visited[][] = new int[r][c];
         
         if(fo == 0)
             return fo;
@@ -15,7 +16,8 @@ class Solution {
             for(int j = 0;j < c;j++){
                 if(grid[i][j] == 2){
                     dist[i][j] = 0;
-                    bfs(i,j,grid,new int[r][c],dist);   
+                    initVisited(visited);
+                    bfs(i,j,grid,visited,dist);   
                 }
             }
         }
@@ -38,6 +40,13 @@ class Solution {
         }
     }
     
+    public void initVisited(int [][] visited){
+        for(int i = 0;i < r;i++){
+            for(int j = 0;j < c;j++){
+                visited[i][j] = 0;
+            }
+        }
+    }
     public int getFreshOrangeCount(int[][] grid){
         int fc = 0;
         for(int i = 0;i < r;i++){
