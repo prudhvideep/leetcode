@@ -13,7 +13,7 @@ class Solution {
             
             id = (id+shifts[i])%26;
             
-            char c = (char) ('a'+id);
+            char c = (char) (97+id);
             sb.append(c);
         }
         
