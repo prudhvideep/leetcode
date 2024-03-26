@@ -3,7 +3,7 @@ class Solution {
         int maxE = Integer.MIN_VALUE, minE = Integer.MAX_VALUE;
         int n = nums.length;
         
-        for(int i = 0;i < nums.length;i++){
+        for(int i = 0;i < n;i++){
             if(nums[i] > 0){
                 maxE = Math.max(maxE,nums[i]);
                 minE = Math.min(minE,nums[i]);
