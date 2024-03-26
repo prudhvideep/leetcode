@@ -7,7 +7,6 @@ class Solution {
             
             if(nums[id] < 0){
                 list.add(id+1);
-                continue;
             }
             nums[id] = -1 * nums[id];
         }
