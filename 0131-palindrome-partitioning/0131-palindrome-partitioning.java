@@ -1,12 +1,12 @@
 class Solution {
-    List <List <String>> part = new ArrayList<List<String>>();
     
     public List<List<String>> partition(String s) {
-        partUtil(new ArrayList<>(),0,s);
+        List <List <String>> part = new ArrayList<>();
+        partUtil(new ArrayList<>(),0,s,part);
         return part;
     }
     
-    void partUtil(List <String> list, int id, String s){
+    void partUtil(List <String> list, int id, String s, List <List <String>> part){
         if(id == s.length()){
             part.add(new ArrayList<String> (list));
             return;
@@ -15,7 +15,7 @@ class Solution {
         for(int i = id;i < s.length();i++){
             if(isPali(s,id,i)){
                 list.add(s.substring(id,i+1));
-                partUtil(list,i+1,s);
+                partUtil(list,i+1,s,part);
                 list.remove(list.size()-1);   
             }
         }
