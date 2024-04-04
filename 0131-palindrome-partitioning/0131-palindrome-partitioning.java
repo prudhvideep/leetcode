@@ -6,7 +6,7 @@ class Solution {
         return part;
     }
     
-    void partUtil(List <String> list, int id, String s, List <List <String>> part){
+    private void partUtil(List <String> list, int id, String s, List <List <String>> part){
         if(id == s.length()){
             part.add(new ArrayList<String> (list));
             return;
@@ -21,7 +21,7 @@ class Solution {
         }
     }
     
-    boolean isPali(String s,int l,int h){        
+    private boolean isPali(String s,int l,int h){        
         while(l < h){
             if(s.charAt(l) != s.charAt(h))
                 return false;
