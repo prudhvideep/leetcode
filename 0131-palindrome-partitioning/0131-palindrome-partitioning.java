@@ -2,8 +2,7 @@ class Solution {
     List <List <String>> part = new ArrayList<List<String>>();
     
     public List<List<String>> partition(String s) {
-        List <String> list = new ArrayList<>();
-        partUtil(list,0,s);
+        partUtil(new ArrayList<>(),0,s);
         return part;
     }
     
