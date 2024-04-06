@@ -1,17 +1,17 @@
 class Solution {
     public String minRemoveToMakeValid(String s) {
         int count = 0;
-        Set <Integer> set = new HashSet<>();
+        char [] arr = s.toCharArray();
         
-        for(int i = 0;i < s.length();i++){
-            if(s.charAt(i) == '(')
+        
+        for(int i = 0;i < arr.length;i++){
+            if(arr[i] == '(')
             {
                 count++;
-            }else if(s.charAt(i) == ')'){
+            }else if(arr[i] == ')'){
                 count--;
-                
                 if(count < 0){
-                    set.add(i);
+                    arr[i] = '*';
                     count = 0;
                 }
             }
@@ -19,29 +19,27 @@ class Solution {
         
         count = 0;
         
-        for(int i = s.length()-1;i >=0;i--){
-            if(s.charAt(i) == ')')
+        for(int i = arr.length-1;i >=0;i--){
+            if(arr[i] == ')')
             {
                 count++;
-            }else if(s.charAt(i) == '('){
+            }else if(arr[i] == '('){
                 count--;
-                
                 if(count < 0){
-                    set.add(i);
+                    arr[i] = '*';
                     count = 0;
                 }
             }
         }
         
-        StringBuilder sb = new StringBuilder();
-        
-        for(int i = 0;i < s.length();i++){
-            if(!set.contains(i)){
-                sb.append(s.charAt(i));
+        int len = 0;
+        for(int i = 0;i < arr.length;i++){
+            if(arr[i] != '*'){
+                arr[len++] = arr[i];
             }
         }
         
-        return sb.toString();
+        return new String(arr).substring(0,len);
         
     }
 }
