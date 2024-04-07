@@ -1,23 +1,50 @@
 class Solution {
+    public List <String> list = new ArrayList<>(); 
+    
     public List<String> generateParenthesis(int n) {
-        List <String> r = new ArrayList<>();
-        int lPar = 0, rPar = 0;
+        StringBuilder sb = new StringBuilder();
+        char [] ch = {'(',')'};
+        helper(0,n,ch,sb);
         
-        parUtil("",n,0,0,r);
+        return list;
         
-        return r;
     }
     
-    public void parUtil(String s, int n, int lPar, int rPar, List <String> r){
-        if(lPar == n && rPar == n){
-            r.add(s);
+    public void helper(int id, int n, char [] ch, StringBuilder sb){
+        if(id == (2*n)){
+            if(isValid(sb.toString())){
+                list.add(sb.toString());    
+            }
             return;
         }
-        if(lPar < n){
-            parUtil(s+"(",n,lPar+1,rPar,r);
-        } 
-        if(rPar < lPar){
-            parUtil(s+")",n,lPar,rPar+1,r);
+        
+        for(char c : ch){
+            sb.append(c);
+            helper(id+1,n,ch,sb);
+            sb.deleteCharAt(sb.length()-1);
         }
+    }
+    
+    public boolean isValid(String par){
+        Stack<Character> st = new Stack();
+        
+        for(int i = 0;i < par.length();i++){
+            char c = par.charAt(i);
+            
+            if(c == '('){
+                st.push(c);
+            }else{
+                if(st.isEmpty()){
+                    return false;
+                }
+                
+                st.pop();
+            }
+        }
+        
+        if(!st.isEmpty())
+            return false;
+        
+        return true;
     }
 }
