@@ -14,9 +14,6 @@ class Solution {
         }
         
         
-        int count = Arrays.stream(pref).sum();
-        return count;
-        
-        
+        return Arrays.stream(pref).sum();
     }
 }
