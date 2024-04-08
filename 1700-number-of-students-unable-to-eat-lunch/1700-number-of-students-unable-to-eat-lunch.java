@@ -14,6 +14,6 @@ class Solution {
         }
         
         
-        return Arrays.stream(pref).sum();
+        return pref[0]+pref[1];
     }
 }
