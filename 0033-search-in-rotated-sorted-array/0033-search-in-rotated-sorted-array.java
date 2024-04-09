@@ -43,7 +43,7 @@ class Solution {
                 return mid;
             }else if(a[mid] >= a[0]){
                 l = mid+1;
-            }else if(a[mid] < a[0]){
+            }else{
                 h = mid-1;
             }
         }
