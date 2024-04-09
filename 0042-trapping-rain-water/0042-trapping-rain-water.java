@@ -8,9 +8,7 @@ class Solution {
         
         int water = 0;
         for(int i = 0;i < n;i++){
-           int amount = Math.min(pge[i],nge[i]) - height[i];
-           //System.out.println(i + " " + pge[i] + " " + nge[i]);
-           water+= amount;
+           water += (Math.min(pge[i],nge[i]) - height[i]);
         }
         
         return water;
