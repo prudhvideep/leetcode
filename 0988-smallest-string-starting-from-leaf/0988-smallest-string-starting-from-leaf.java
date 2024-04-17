@@ -14,7 +14,7 @@
  * }
  */
 class Solution {
-    public String retString;
+    public String retString = "";
     
     public String smallestFromLeaf(TreeNode root) {
         StringBuilder sb = new StringBuilder ();
@@ -34,9 +34,7 @@ class Solution {
         if(root.left == null && root.right == null){
             if(retString == null || retString.length() == 0){
                 retString = sb.toString();
-            }
-            
-            if(retString.compareTo(sb.toString()) > 0){
+            }else if(retString.compareTo(sb.toString()) > 0){
                 retString = sb.toString();
             }
         }
