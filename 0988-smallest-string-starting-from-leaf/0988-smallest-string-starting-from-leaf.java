@@ -34,7 +34,9 @@ class Solution {
         if(root.left == null && root.right == null){
             if(retString == null || retString.length() == 0){
                 retString = sb.toString();
-            }else if(retString.compareTo(sb.toString()) > 0){
+            }
+            
+            if(retString.compareTo(sb.toString()) > 0){
                 retString = sb.toString();
             }
         }
