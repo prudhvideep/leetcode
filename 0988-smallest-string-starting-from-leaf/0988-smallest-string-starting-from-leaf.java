@@ -14,7 +14,7 @@
  * }
  */
 class Solution {
-    public String retString = "";
+    public String retString;
     
     public String smallestFromLeaf(TreeNode root) {
         StringBuilder sb = new StringBuilder ();
