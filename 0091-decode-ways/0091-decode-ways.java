@@ -23,6 +23,8 @@ class Solution {
                 
                 if(prefix.length() <= 4){
                     prefix_int = Integer.valueOf(prefix);
+                }else{
+                    break;
                 }
                 
                 if(prefix_int == 0){
