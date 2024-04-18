@@ -21,7 +21,7 @@ class Solution {
                 
                 int prefix_int = -1;
                 
-                if(prefix.length() < 3){
+                if(prefix.length() <= 2){
                     prefix_int = Integer.valueOf(prefix);
                 }else{
                     break;
