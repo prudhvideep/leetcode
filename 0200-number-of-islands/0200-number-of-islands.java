@@ -1,36 +1,32 @@
 class Solution {
     public int numIslands(char[][] grid) {
-        int r = grid.length, c = grid[0].length, l = 0;
+        int r = grid.length, c = grid[0].length;
         
+        boolean visited [][] = new boolean[r][c];
+        int count = 0;
         for(int i = 0;i < r;i++){
             for(int j = 0;j < c;j++){
-                char t = grid[i][j];
-                
-                if(t == '1'){
-                    dfs(i,j,r,c,grid);
-                    l++;
-                }  
+                if(grid[i][j] == '1' && !visited[i][j]){
+                    count++;
+                    dfs(i,j,visited,grid);
+                }
             }
         }
         
-        return l;
+        return count;
     }
     
-    public void dfs(int i,int j, int r, int c, char[][] grid){
-        if(grid[i][j] == '1'){
-            grid[i][j] = 'v';
-        } 
+    public void dfs(int row,int col,boolean [][] visited, char [][] grid){
+        visited[row][col] = true;
         
-        if(i-1 >= 0 && grid[i-1][j] == '1')
-            dfs(i-1,j,r,c,grid);
+        if(row-1 >= 0 && !visited[row-1][col] && grid[row-1][col] == '1')dfs(row-1,col,visited,grid);
         
-        if(i+1 < r && grid[i+1][j] == '1')
-            dfs(i+1,j,r,c,grid);
+        if(row+1 < grid.length && !visited[row+1][col]  && grid[row+1][col] == '1')dfs(row+1,col,visited,grid);
         
-        if(j-1 >= 0 && grid[i][j-1] == '1')
-            dfs(i,j-1,r,c,grid);
+        if(col-1 >= 0 && !visited[row][col-1] && grid[row][col-1] == '1')dfs(row,col-1,visited,grid);
         
-        if(j+1 < c && grid[i][j+1] == '1')
-            dfs(i,j+1,r,c,grid);
+        if(col+1 < grid[0].length && !visited[row][col+1] && grid[row][col+1] == '1' )dfs(row,col+1,visited,grid);
+        
+        
     }
 }
