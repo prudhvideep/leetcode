@@ -14,15 +14,7 @@ class Solution {
             }
         }
         
-        int [][] ret = new int[list.size()][];
-        
-        int id = 0;
-        for(int a [] : list){
-            ret[id] = a;
-            id++;
-        }
-        
-        return ret;
+        return list.toArray(new int[list.size()][]);
     }
     
     public void dfs(int row,int col, int [][] land, int [] arr){
