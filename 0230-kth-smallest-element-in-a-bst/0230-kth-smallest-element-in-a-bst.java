@@ -14,27 +14,14 @@
  * }
  */
 class Solution {
+    int id = 0;
     public int kthSmallest(TreeNode root, int k) {
+        if(root == null)
+            return -1;
         
-        int [] count = {0};
-        int [] se = {-1};
-        
-        inOrder(root,k,count,se);
-        return se[0];
-    }
-    
-    void inOrder(TreeNode root, int k, int [] count, int [] se){
-        if(root == null || count[0] == k)
-            return;
-        
-        inOrder(root.left,k,count,se);
-    
-        count[0]++;
-        if(count[0] == k){
-            se[0] = root.val;
-            return;
-        }
-         
-        inOrder(root.right,k,count,se);
+        int leftVal = kthSmallest(root.left,k);
+        if(leftVal != -1) return leftVal;
+        if(++id == k) return root.val;
+        return kthSmallest(root.right,k);
     }
 }
