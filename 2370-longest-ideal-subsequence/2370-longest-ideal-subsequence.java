@@ -6,22 +6,20 @@ class Solution {
             return 1;
         
         int [] dp = new int[26];
-        int res = 0;
+        int maxLen = 0,best,c;
         
         for(int i = 0;i < n;i++){
-            int c = s.charAt(i) - 'a';
-            int best = 0;
-            
+            c = s.charAt(i) - 'a';
+            best = 0;
             for(int j = 0;j < 26;j++){
-                if(Math.abs(j-c) <= k){
-                    best = Math.max(best,dp[j]);
+                if(Math.abs(c-j) <= k){
+                    best = Math.max(dp[j],best);
                 }
             }
-            
-            dp[c] = Math.max(dp[c], best + 1);
-            res = Math.max(res, dp[c]);
+            dp[c] = Math.max(dp[c],1+best);
+            maxLen = Math.max(maxLen,dp[c]);
         }
         
-        return res;
+        return maxLen;
     }
 }
