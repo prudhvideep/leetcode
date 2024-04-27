@@ -21,17 +21,13 @@ class Solution {
                    chars.setLength(0);
                 }
             }else if(ch == '['){                
-                if(chars.length() > 0){
-                    if(bCount == 0){
-                        fStr.append(chars.toString());
-                    }else{
-                        sSt.push(chars.toString());
-                    }   
-                }
                 bCount++;
                 if(digits.length() > 0){
                     int num = Integer.valueOf(digits.toString());
                     mSt.push(num);
+                }
+                if(chars.length() > 0){
+                    sSt.push(chars.toString());
                 }
                 chars.setLength(0);
                 digits.setLength(0);
