@@ -11,7 +11,6 @@ class LRUCache {
         if(hm.containsKey(key)){
             set.remove(key);
             set.add(key);
-            // System.out.println("get " + key + "     " + set);
             return hm.get(key);
         }else{
             return -1;
@@ -22,33 +21,22 @@ class LRUCache {
         
         if(hm.size() < capacity){
             if(hm.containsKey(key)){
-                hm.put(key,value);
                 set.remove(key);
-                set.add(key);
             }else{
                 hm.put(key,value);
-                set.add(key);
             }
-        }else if(hm.size() == capacity){
-            if(hm.containsKey(key)){
-                hm.put(key,value);
-                set.remove(key);
-                set.add(key);
+        }else if(hm.size() >= capacity){
+            if(hm.containsKey(key)){    
+                set.remove(key);     
             }else{
-                Iterator <Integer> it = set.iterator();
-                int keyToRemove = -1;
-                if(it.hasNext()){
-                    keyToRemove = it.next();
-                }
-
+                int keyToRemove = set.iterator().next();
                 hm.remove(keyToRemove);
                 set.remove(keyToRemove);
-
-                hm.put(key,value);
-                set.add(key);
             }
         }
-        // System.out.println("put " + key + " " + value + "   " + set);
+        
+        hm.put(key,value);
+        set.add(key);
     }
 }
 
