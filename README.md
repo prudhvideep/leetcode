@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/prudhvideep/leetcode/tree/master/0053-maximum-subarray) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/prudhvideep/leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/prudhvideep/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/prudhvideep/leetcode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/prudhvideep/leetcode/tree/master/0053-maximum-subarray) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/prudhvideep/leetcode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 ## Stack
 |  |
@@ -78,4 +80,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0443-string-compression](https://github.com/prudhvideep/leetcode/tree/master/0443-string-compression) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/prudhvideep/leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/prudhvideep/leetcode/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
