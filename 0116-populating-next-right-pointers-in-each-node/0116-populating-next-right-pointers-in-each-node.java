@@ -27,7 +27,7 @@ class Solution {
             return root;
         }
 
-        Queue <Node> q = new LinkedList <> ();
+        Queue <Node> q = new ArrayDeque <> ();
         q.add(root);
         Node prev = null, cur = null;
 
