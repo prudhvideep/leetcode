@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/prudhvideep/leetcode/tree/master/0024-swap-nodes-in-pairs) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/prudhvideep/leetcode/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0138-copy-list-with-random-pointer](https://github.com/prudhvideep/leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0146-lru-cache](https://github.com/prudhvideep/leetcode/tree/master/0146-lru-cache) |
 ## Recursion
 |  |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/prudhvideep/leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0138-copy-list-with-random-pointer](https://github.com/prudhvideep/leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0146-lru-cache](https://github.com/prudhvideep/leetcode/tree/master/0146-lru-cache) |
 ## Design
 |  |
