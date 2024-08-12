@@ -7,14 +7,14 @@ class Solution {
             count[word.charAt(i) - 'a']++;
         } 
         
-        List <Integer> list = Arrays.stream(count).boxed().sorted((a,b) -> (b-a)).toList();
+        Arrays.sort(count);
 
         int ct = 0, fact = 1;
-        for(int c : list){
-            if(c == 0)
+        for(int i = 25;i >= 0; i--){
+            if(count[i] == 0)
                 continue;
 
-            minPush += c*fact;
+            minPush += count[i]*fact;
 
             ct++;
             if(ct == 8){
