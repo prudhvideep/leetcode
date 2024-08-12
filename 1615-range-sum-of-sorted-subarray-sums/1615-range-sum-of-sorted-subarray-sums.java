@@ -2,30 +2,24 @@ class Solution {
     public final int MOD = 1000000007;
 
     public int rangeSum(int[] nums, int n, int left, int right) {
-        PriorityQueue <Integer> pq = new PriorityQueue<>((a,b)-> (a-b));
+        ArrayList <Integer> list = new ArrayList<>(); 
 
         for(int i = 0;i < nums.length;i++){
             int sum = nums[i];
-            pq.add(sum);
+            list.add(sum);
             for(int j = i+1;j < nums.length;j++){
                 sum+= nums[j];
-                pq.add(sum);
+                list.add(sum);
             }
         }
 
-
-        int pe = left-1;
-
-        while(pe-- > 0){
-            pq.poll();
-        }
+        Collections.sort(list);
         
         int rSum = 0;
-
-        while(left <= right){
-            rSum = ((rSum % MOD) + (pq.poll() % MOD)) % MOD;
-            left++;
+        for(int i = left-1;i < right;i++){
+            rSum = ((rSum % MOD) + (list.get(i) % MOD))%MOD;
         }
+       
         return rSum;
     }
 }
