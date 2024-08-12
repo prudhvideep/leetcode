@@ -12,7 +12,7 @@ class Solution {
         int ct = 0, fact = 1;
         for(int i = 25;i >= 0; i--){
             if(count[i] == 0)
-                continue;
+                break;
 
             minPush += count[i]*fact;
 
