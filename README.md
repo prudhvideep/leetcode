@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0040-combination-sum-ii](https://github.com/prudhvideep/leetcode/tree/master/0040-combination-sum-ii) |
 | [0053-maximum-subarray](https://github.com/prudhvideep/leetcode/tree/master/0053-maximum-subarray) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/prudhvideep/leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/prudhvideep/leetcode/tree/master/0128-longest-consecutive-sequence) |
@@ -142,4 +143,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2884-length-of-the-longest-valid-substring](https://github.com/prudhvideep/leetcode/tree/master/2884-length-of-the-longest-valid-substring) |
+## Backtracking
+|  |
+| ------- |
+| [0040-combination-sum-ii](https://github.com/prudhvideep/leetcode/tree/master/0040-combination-sum-ii) |
 <!---LeetCode Topics End-->
