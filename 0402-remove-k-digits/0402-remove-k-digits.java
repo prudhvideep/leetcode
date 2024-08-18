@@ -3,14 +3,12 @@ class Solution {
         Stack<Character> st = new Stack <> ();
         StringBuilder sb = new StringBuilder();
 
-        st.push(num.charAt(0));
-
-        for(int i = 1;i < num.length();i++){
-            while(!st.isEmpty() && (k > 0) && (st.peek() > num.charAt(i))){
+        for(char c : num.toCharArray()){
+            while(!st.isEmpty() && (k > 0) && (st.peek() > c)){
                 st.pop();
                 k--;
             }
-            st.push(num.charAt(i));
+            st.push(c);
         }
 
         while(k-- > 0 && !st.isEmpty()){
