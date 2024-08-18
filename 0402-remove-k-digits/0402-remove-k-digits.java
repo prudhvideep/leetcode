@@ -16,10 +16,9 @@ class Solution {
         }
 
         while(!st.isEmpty()){
-            sb.insert(0,st.peek());
-            st.pop();
+            sb.append(st.pop());
         }
-
+        sb.reverse();
         
         while(sb.length() > 1 && sb.charAt(0) == '0'){
           sb.deleteCharAt(0);
