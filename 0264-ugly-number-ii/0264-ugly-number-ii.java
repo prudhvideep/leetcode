@@ -1,17 +1,17 @@
 class Solution {
     public int nthUglyNumber(int n) {
-        int dp[] = new int [n];
-        dp[0] = 1;
-        int i2 = 0,i3 = 0,i5 = 0;
-        
-        for(int i = 1;i < n;i++){
-            dp[i] = Math.min(dp[i2]*2, Math.min(dp[i3]*3,dp[i5]*5));
-            
-            if(dp[i] == dp[i2]*2) i2++;
-            if(dp[i] == dp[i3]*3) i3++;
-            if(dp[i] == dp[i5]*5) i5++;
+        int count = 0;Long uNum = 0L;
+        TreeSet <Long> set = new TreeSet<>((a,b) -> Long.compare(a,b));
+        set.add(1L);
+
+        while(count < n){
+            uNum = set.pollFirst();
+            count++;
+
+            set.add(uNum * 2);
+            set.add(uNum * 3);
+            set.add(uNum * 5);
         }
-        
-        return dp[n-1];
+        return uNum.intValue();
     }
 }
