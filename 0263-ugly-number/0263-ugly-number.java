@@ -1,16 +1,30 @@
 class Solution {
     public boolean isUgly(int n) {
-        if(n <= 0)
-            return false;
-        if(n == 1)
-            return true;
-        
-        for(int i = 2;i <= 5; i++){
-            while(n%i == 0){
-                n/=i;
-            }
+        if(n == 0) return false; 
+
+        int c2 = 0, c3 = 0, c5 = 0;
+
+        int n2 = n, n3 = n, n5 = n;
+
+        while(n2%2 == 0){
+            n2 = n2/2;
+            c2++;
         }
-        
-        return (n == 1) ? true : false;
+
+        while(n3%3 == 0){
+            n3 = n3/3;
+            c3++;
+        }
+
+        while(n5%5 == 0){
+            n5 = n5/5;
+            c5++;
+        }
+
+       int res = (int) Math.pow(2,c2);
+       res *= (int) Math.pow(3,c3);
+       res *= (int) Math.pow(5,c5);
+
+       return res == n;
     }
 }
