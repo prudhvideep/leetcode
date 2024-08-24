@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/prudhvideep/leetcode/tree/master/0402-remove-k-digits) |
 | [0443-string-compression](https://github.com/prudhvideep/leetcode/tree/master/0443-string-compression) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/prudhvideep/leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
+| [0564-find-the-closest-palindrome](https://github.com/prudhvideep/leetcode/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/prudhvideep/leetcode/tree/master/0592-fraction-addition-and-subtraction) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/prudhvideep/leetcode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2243-check-if-all-as-appears-before-all-bs](https://github.com/prudhvideep/leetcode/tree/master/2243-check-if-all-as-appears-before-all-bs) |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0263-ugly-number](https://github.com/prudhvideep/leetcode/tree/master/0263-ugly-number) |
 | [0264-ugly-number-ii](https://github.com/prudhvideep/leetcode/tree/master/0264-ugly-number-ii) |
+| [0564-find-the-closest-palindrome](https://github.com/prudhvideep/leetcode/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/prudhvideep/leetcode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0650-2-keys-keyboard](https://github.com/prudhvideep/leetcode/tree/master/0650-2-keys-keyboard) |
 ## Monotonic Stack
