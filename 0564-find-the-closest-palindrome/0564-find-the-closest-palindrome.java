@@ -1,5 +1,3 @@
-import java.math.BigInteger;
-
 class Solution {
     public String nearestPalindromic(String n) {
         int l = n.length();
@@ -22,7 +20,6 @@ class Solution {
     }
 
     public String checkEdgeCases(String n, int l) {
-        // check for all 9's
         if ("9".equals(n)) {
             return "8";
         }
@@ -63,18 +60,18 @@ class Solution {
         int l = n.length(), pl = prefix.length();
         StringBuilder tempPrefix = new StringBuilder(prefix);
         TreeSet<String> set = new TreeSet<>((a, b) -> {
-            BigInteger nInt = new BigInteger(n);
-            BigInteger aInt = new BigInteger(a);
-            BigInteger bInt = new BigInteger(b);
+            long nInt = Long.valueOf(n);
+            long aInt = Long.valueOf(a);
+            long bInt = Long.valueOf(b);
 
-            aInt = aInt.subtract(nInt).abs();
-            bInt = bInt.subtract(nInt).abs();
+            aInt = Math.abs(aInt-nInt);
+            bInt = Math.abs(bInt-nInt);
 
-            int comparison = aInt.compareTo(bInt);
-            if (comparison == 0) {
+            
+            if (aInt == bInt) {
                 return a.compareTo(b);
             } else {
-                return comparison;
+                return Long.compare(aInt,bInt);
             }
 
         });
