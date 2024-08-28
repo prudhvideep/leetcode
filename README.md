@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1333-sort-the-jumbled-numbers](https://github.com/prudhvideep/leetcode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/prudhvideep/leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/prudhvideep/leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [2035-count-sub-islands](https://github.com/prudhvideep/leetcode/tree/master/2035-count-sub-islands) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/prudhvideep/leetcode/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2727-number-of-senior-citizens](https://github.com/prudhvideep/leetcode/tree/master/2727-number-of-senior-citizens) |
 | [2884-length-of-the-longest-valid-substring](https://github.com/prudhvideep/leetcode/tree/master/2884-length-of-the-longest-valid-substring) |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/prudhvideep/leetcode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0145-binary-tree-postorder-traversal](https://github.com/prudhvideep/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/prudhvideep/leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [2035-count-sub-islands](https://github.com/prudhvideep/leetcode/tree/master/2035-count-sub-islands) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -143,10 +145,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/prudhvideep/leetcode/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [2035-count-sub-islands](https://github.com/prudhvideep/leetcode/tree/master/2035-count-sub-islands) |
 ## Union Find
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/prudhvideep/leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [2035-count-sub-islands](https://github.com/prudhvideep/leetcode/tree/master/2035-count-sub-islands) |
 ## Greedy
 |  |
 | ------- |
@@ -206,4 +210,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1325-path-with-maximum-probability](https://github.com/prudhvideep/leetcode/tree/master/1325-path-with-maximum-probability) |
+## Matrix
+|  |
+| ------- |
+| [2035-count-sub-islands](https://github.com/prudhvideep/leetcode/tree/master/2035-count-sub-islands) |
 <!---LeetCode Topics End-->
