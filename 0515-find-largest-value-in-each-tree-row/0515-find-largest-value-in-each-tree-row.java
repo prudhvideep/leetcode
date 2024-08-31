@@ -15,33 +15,24 @@
  */
 class Solution {
     public List<Integer> largestValues(TreeNode root) {
-        List <Integer> list = new ArrayList<>();
-        Queue <TreeNode> q = new ArrayDeque<>();
-        if(root == null){
-            return list;
-        }
+        List <Integer> list = new ArrayList <> ();
 
-        q.add(root);
+        dfs(root,0,list);
 
-        while(!q.isEmpty()){
-            int n = q.size();
-            int maxEle = Integer.MIN_VALUE;
-
-            while(n-- > 0){
-                TreeNode temp = q.poll();
-                maxEle = Math.max(maxEle,temp.val);
-
-                if(temp.left != null){
-                    q.add(temp.left);
-                }
-
-                if(temp.right != null){
-                    q.add(temp.right);
-                }
-            }
-
-            list.add(maxEle);
-        }
         return list;
+    }
+
+    public void dfs(TreeNode root, int level, List <Integer> list){
+        if(root == null) return;
+        
+        if(list.size() <= level){
+            list.add(root.val);
+        }else{
+            int maxEle = Math.max(list.get(level),root.val);
+            list.set(level,maxEle);
+        }
+
+        dfs(root.left,level+1,list);
+        dfs(root.right,level+1,list);
     }
 }
