@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/prudhvideep/leetcode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0145-binary-tree-postorder-traversal](https://github.com/prudhvideep/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/prudhvideep/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0538-convert-bst-to-greater-tree](https://github.com/prudhvideep/leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [0617-merge-two-binary-trees](https://github.com/prudhvideep/leetcode/tree/master/0617-merge-two-binary-trees) |
 | [0655-print-binary-tree](https://github.com/prudhvideep/leetcode/tree/master/0655-print-binary-tree) |
 | [0671-second-minimum-node-in-a-binary-tree](https://github.com/prudhvideep/leetcode/tree/master/0671-second-minimum-node-in-a-binary-tree) |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/prudhvideep/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/prudhvideep/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/prudhvideep/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0538-convert-bst-to-greater-tree](https://github.com/prudhvideep/leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [0617-merge-two-binary-trees](https://github.com/prudhvideep/leetcode/tree/master/0617-merge-two-binary-trees) |
 | [0655-print-binary-tree](https://github.com/prudhvideep/leetcode/tree/master/0655-print-binary-tree) |
 | [0671-second-minimum-node-in-a-binary-tree](https://github.com/prudhvideep/leetcode/tree/master/0671-second-minimum-node-in-a-binary-tree) |
@@ -80,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0099-recover-binary-search-tree](https://github.com/prudhvideep/leetcode/tree/master/0099-recover-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/prudhvideep/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/prudhvideep/leetcode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
+| [0538-convert-bst-to-greater-tree](https://github.com/prudhvideep/leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [0658-find-k-closest-elements](https://github.com/prudhvideep/leetcode/tree/master/0658-find-k-closest-elements) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/prudhvideep/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/prudhvideep/leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -91,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/prudhvideep/leetcode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0145-binary-tree-postorder-traversal](https://github.com/prudhvideep/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/prudhvideep/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0538-convert-bst-to-greater-tree](https://github.com/prudhvideep/leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [0617-merge-two-binary-trees](https://github.com/prudhvideep/leetcode/tree/master/0617-merge-two-binary-trees) |
 | [0655-print-binary-tree](https://github.com/prudhvideep/leetcode/tree/master/0655-print-binary-tree) |
 | [0671-second-minimum-node-in-a-binary-tree](https://github.com/prudhvideep/leetcode/tree/master/0671-second-minimum-node-in-a-binary-tree) |
