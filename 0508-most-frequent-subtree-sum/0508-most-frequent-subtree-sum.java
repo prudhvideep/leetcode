@@ -16,10 +16,11 @@
 class Solution {
     public Map <Integer,Integer> map = new HashMap <> ();
     public int[] findFrequentTreeSum(TreeNode root) {
-        helper(root);
-        int fq = 0;
-        Set <Integer> set = new HashSet<>();
+        int totSum = findSum(root);
 
+        Set <Integer> set = new HashSet<>();
+        
+        int fq = 0;
         for(int key : map.keySet()){
             if(map.get(key) >= fq){
                 if(map.get(key) == fq){
@@ -42,16 +43,6 @@ class Solution {
         return ret;
     }
 
-    public void helper(TreeNode root){
-        if(root == null)return;
-
-        helper(root.left);
-        helper(root.right);
-
-        int sum = findSum(root);
-
-        map.put(sum,map.getOrDefault(sum,0)+1);
-    }
 
     public int findSum(TreeNode root){
         if(root == null)
@@ -61,6 +52,8 @@ class Solution {
         int rSum = findSum(root.right);
 
         int totSum = root.val + lSum + rSum;
+
+        map.put(totSum,map.getOrDefault(totSum,0)+1);
 
         return totSum;
     }
