@@ -16,33 +16,25 @@
 class Solution {
     int maxLen = 0;
     public int longestUnivaluePath(TreeNode root) {
-        dfs(root);
+        getUniPath(root);
         return maxLen;
-    }
-
-    public void dfs(TreeNode root){
-        if(root == null)
-            return;
-
-        dfs(root.left);
-
-        int l = getUniPath(root);
-
-        dfs(root.right);
     }
 
     public int getUniPath(TreeNode root){
         if(root == null) return 0;
 
         if(root.left == null && root.right == null) return 0;
-
+        
+        int left = getUniPath(root.left);
+        int right = getUniPath(root.right);
+        
         int lLen = 0, rLen = 0;
 
         if(root.left != null && root.left.val == root.val)
-            lLen = 1+getUniPath(root.left);
+            lLen = 1+left;
 
         if(root.right != null && root.right.val == root.val)
-            rLen = 1+getUniPath(root.right);
+            rLen = 1+right;
 
         maxLen = Math.max(maxLen,(rLen + lLen));
 
