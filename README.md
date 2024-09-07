@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/prudhvideep/leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/prudhvideep/leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/prudhvideep/leetcode/tree/master/0146-lru-cache) |
+| [1484-linked-list-in-binary-tree](https://github.com/prudhvideep/leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/prudhvideep/leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Recursion
 |  |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0687-longest-univalue-path](https://github.com/prudhvideep/leetcode/tree/master/0687-longest-univalue-path) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/prudhvideep/leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/prudhvideep/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1484-linked-list-in-binary-tree](https://github.com/prudhvideep/leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [2104-operations-on-tree](https://github.com/prudhvideep/leetcode/tree/master/2104-operations-on-tree) |
 ## Depth-First Search
 |  |
@@ -86,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0687-longest-univalue-path](https://github.com/prudhvideep/leetcode/tree/master/0687-longest-univalue-path) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/prudhvideep/leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/prudhvideep/leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1484-linked-list-in-binary-tree](https://github.com/prudhvideep/leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [2035-count-sub-islands](https://github.com/prudhvideep/leetcode/tree/master/2035-count-sub-islands) |
 | [2104-operations-on-tree](https://github.com/prudhvideep/leetcode/tree/master/2104-operations-on-tree) |
 ## Binary Search Tree
@@ -117,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0671-second-minimum-node-in-a-binary-tree](https://github.com/prudhvideep/leetcode/tree/master/0671-second-minimum-node-in-a-binary-tree) |
 | [0687-longest-univalue-path](https://github.com/prudhvideep/leetcode/tree/master/0687-longest-univalue-path) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/prudhvideep/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1484-linked-list-in-binary-tree](https://github.com/prudhvideep/leetcode/tree/master/1484-linked-list-in-binary-tree) |
 ## Hash Table
 |  |
 | ------- |
@@ -198,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/prudhvideep/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0617-merge-two-binary-trees](https://github.com/prudhvideep/leetcode/tree/master/0617-merge-two-binary-trees) |
 | [0655-print-binary-tree](https://github.com/prudhvideep/leetcode/tree/master/0655-print-binary-tree) |
+| [1484-linked-list-in-binary-tree](https://github.com/prudhvideep/leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [2035-count-sub-islands](https://github.com/prudhvideep/leetcode/tree/master/2035-count-sub-islands) |
 | [2104-operations-on-tree](https://github.com/prudhvideep/leetcode/tree/master/2104-operations-on-tree) |
 ## Union Find
