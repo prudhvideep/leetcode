@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/prudhvideep/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/prudhvideep/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/prudhvideep/leetcode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
+| [0162-find-peak-element](https://github.com/prudhvideep/leetcode/tree/master/0162-find-peak-element) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/prudhvideep/leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 | [0624-maximum-distance-in-arrays](https://github.com/prudhvideep/leetcode/tree/master/0624-maximum-distance-in-arrays) |
 | [0658-find-k-closest-elements](https://github.com/prudhvideep/leetcode/tree/master/0658-find-k-closest-elements) |
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0099-recover-binary-search-tree](https://github.com/prudhvideep/leetcode/tree/master/0099-recover-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/prudhvideep/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/prudhvideep/leetcode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
+| [0162-find-peak-element](https://github.com/prudhvideep/leetcode/tree/master/0162-find-peak-element) |
 | [0538-convert-bst-to-greater-tree](https://github.com/prudhvideep/leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [0658-find-k-closest-elements](https://github.com/prudhvideep/leetcode/tree/master/0658-find-k-closest-elements) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/prudhvideep/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
