@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/prudhvideep/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/prudhvideep/leetcode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/prudhvideep/leetcode/tree/master/0162-find-peak-element) |
+| [0216-combination-sum-iii](https://github.com/prudhvideep/leetcode/tree/master/0216-combination-sum-iii) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/prudhvideep/leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 | [0624-maximum-distance-in-arrays](https://github.com/prudhvideep/leetcode/tree/master/0624-maximum-distance-in-arrays) |
 | [0658-find-k-closest-elements](https://github.com/prudhvideep/leetcode/tree/master/0658-find-k-closest-elements) |
@@ -274,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0040-combination-sum-ii](https://github.com/prudhvideep/leetcode/tree/master/0040-combination-sum-ii) |
+| [0216-combination-sum-iii](https://github.com/prudhvideep/leetcode/tree/master/0216-combination-sum-iii) |
 ## Math
 |  |
 | ------- |
