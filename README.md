@@ -278,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/prudhvideep/leetcode/tree/master/0043-multiply-strings) |
+| [0223-rectangle-area](https://github.com/prudhvideep/leetcode/tree/master/0223-rectangle-area) |
 | [0263-ugly-number](https://github.com/prudhvideep/leetcode/tree/master/0263-ugly-number) |
 | [0264-ugly-number-ii](https://github.com/prudhvideep/leetcode/tree/master/0264-ugly-number-ii) |
 | [0564-find-the-closest-palindrome](https://github.com/prudhvideep/leetcode/tree/master/0564-find-the-closest-palindrome) |
@@ -356,4 +357,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/prudhvideep/leetcode/tree/master/0173-binary-search-tree-iterator) |
+## Geometry
+|  |
+| ------- |
+| [0223-rectangle-area](https://github.com/prudhvideep/leetcode/tree/master/0223-rectangle-area) |
 <!---LeetCode Topics End-->
