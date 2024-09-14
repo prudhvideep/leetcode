@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/prudhvideep/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/prudhvideep/leetcode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/prudhvideep/leetcode/tree/master/0162-find-peak-element) |
+| [0212-word-search-ii](https://github.com/prudhvideep/leetcode/tree/master/0212-word-search-ii) |
 | [0216-combination-sum-iii](https://github.com/prudhvideep/leetcode/tree/master/0216-combination-sum-iii) |
 | [0228-summary-ranges](https://github.com/prudhvideep/leetcode/tree/master/0228-summary-ranges) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/prudhvideep/leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0068-text-justification](https://github.com/prudhvideep/leetcode/tree/master/0068-text-justification) |
 | [0187-repeated-dna-sequences](https://github.com/prudhvideep/leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/prudhvideep/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/prudhvideep/leetcode/tree/master/0212-word-search-ii) |
 | [0214-shortest-palindrome](https://github.com/prudhvideep/leetcode/tree/master/0214-shortest-palindrome) |
 | [0402-remove-k-digits](https://github.com/prudhvideep/leetcode/tree/master/0402-remove-k-digits) |
 | [0443-string-compression](https://github.com/prudhvideep/leetcode/tree/master/0443-string-compression) |
@@ -277,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0040-combination-sum-ii](https://github.com/prudhvideep/leetcode/tree/master/0040-combination-sum-ii) |
+| [0212-word-search-ii](https://github.com/prudhvideep/leetcode/tree/master/0212-word-search-ii) |
 | [0216-combination-sum-iii](https://github.com/prudhvideep/leetcode/tree/master/0216-combination-sum-iii) |
 ## Math
 |  |
@@ -328,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0212-word-search-ii](https://github.com/prudhvideep/leetcode/tree/master/0212-word-search-ii) |
 | [2035-count-sub-islands](https://github.com/prudhvideep/leetcode/tree/master/2035-count-sub-islands) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/prudhvideep/leetcode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2411-spiral-matrix-iv](https://github.com/prudhvideep/leetcode/tree/master/2411-spiral-matrix-iv) |
@@ -335,6 +339,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0211-design-add-and-search-words-data-structure](https://github.com/prudhvideep/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/prudhvideep/leetcode/tree/master/0212-word-search-ii) |
 ## Prefix Sum
 |  |
 | ------- |
