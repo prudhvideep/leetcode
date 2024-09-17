@@ -21,8 +21,8 @@ class Solution {
           }
         }
 
-        String [] ret = list.stream().toArray((s) -> new String[s]);
+        
 
-        return ret; 
+        return list.toArray(new String[0]); 
     }
 }
