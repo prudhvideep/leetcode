@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/prudhvideep/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/prudhvideep/leetcode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/prudhvideep/leetcode/tree/master/0162-find-peak-element) |
+| [0179-largest-number](https://github.com/prudhvideep/leetcode/tree/master/0179-largest-number) |
 | [0212-word-search-ii](https://github.com/prudhvideep/leetcode/tree/master/0212-word-search-ii) |
 | [0216-combination-sum-iii](https://github.com/prudhvideep/leetcode/tree/master/0216-combination-sum-iii) |
 | [0228-summary-ranges](https://github.com/prudhvideep/leetcode/tree/master/0228-summary-ranges) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/prudhvideep/leetcode/tree/master/0179-largest-number) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/prudhvideep/leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 | [0539-minimum-time-difference](https://github.com/prudhvideep/leetcode/tree/master/0539-minimum-time-difference) |
 | [0658-find-k-closest-elements](https://github.com/prudhvideep/leetcode/tree/master/0658-find-k-closest-elements) |
@@ -189,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0044-wildcard-matching](https://github.com/prudhvideep/leetcode/tree/master/0044-wildcard-matching) |
 | [0065-valid-number](https://github.com/prudhvideep/leetcode/tree/master/0065-valid-number) |
 | [0068-text-justification](https://github.com/prudhvideep/leetcode/tree/master/0068-text-justification) |
+| [0179-largest-number](https://github.com/prudhvideep/leetcode/tree/master/0179-largest-number) |
 | [0187-repeated-dna-sequences](https://github.com/prudhvideep/leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/prudhvideep/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/prudhvideep/leetcode/tree/master/0212-word-search-ii) |
@@ -260,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/prudhvideep/leetcode/tree/master/0044-wildcard-matching) |
+| [0179-largest-number](https://github.com/prudhvideep/leetcode/tree/master/0179-largest-number) |
 | [0402-remove-k-digits](https://github.com/prudhvideep/leetcode/tree/master/0402-remove-k-digits) |
 | [0624-maximum-distance-in-arrays](https://github.com/prudhvideep/leetcode/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/prudhvideep/leetcode/tree/master/0890-lemonade-change) |
