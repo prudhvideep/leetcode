@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/prudhvideep/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/prudhvideep/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0337-house-robber-iii](https://github.com/prudhvideep/leetcode/tree/master/0337-house-robber-iii) |
+| [0386-lexicographical-numbers](https://github.com/prudhvideep/leetcode/tree/master/0386-lexicographical-numbers) |
 | [0508-most-frequent-subtree-sum](https://github.com/prudhvideep/leetcode/tree/master/0508-most-frequent-subtree-sum) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/prudhvideep/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0538-convert-bst-to-greater-tree](https://github.com/prudhvideep/leetcode/tree/master/0538-convert-bst-to-greater-tree) |
@@ -362,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0211-design-add-and-search-words-data-structure](https://github.com/prudhvideep/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/prudhvideep/leetcode/tree/master/0212-word-search-ii) |
+| [0386-lexicographical-numbers](https://github.com/prudhvideep/leetcode/tree/master/0386-lexicographical-numbers) |
 ## Prefix Sum
 |  |
 | ------- |
