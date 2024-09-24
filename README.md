@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/prudhvideep/leetcode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2727-number-of-senior-citizens](https://github.com/prudhvideep/leetcode/tree/master/2727-number-of-senior-citizens) |
 | [2884-length-of-the-longest-valid-substring](https://github.com/prudhvideep/leetcode/tree/master/2884-length-of-the-longest-valid-substring) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/prudhvideep/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/prudhvideep/leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Sorting
 |  |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2104-operations-on-tree](https://github.com/prudhvideep/leetcode/tree/master/2104-operations-on-tree) |
 | [2884-length-of-the-longest-valid-substring](https://github.com/prudhvideep/leetcode/tree/master/2884-length-of-the-longest-valid-substring) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/prudhvideep/leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/prudhvideep/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/prudhvideep/leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Design
 |  |
@@ -214,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2727-number-of-senior-citizens](https://github.com/prudhvideep/leetcode/tree/master/2727-number-of-senior-citizens) |
 | [2884-length-of-the-longest-valid-substring](https://github.com/prudhvideep/leetcode/tree/master/2884-length-of-the-longest-valid-substring) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/prudhvideep/leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/prudhvideep/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -365,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/prudhvideep/leetcode/tree/master/0212-word-search-ii) |
 | [0386-lexicographical-numbers](https://github.com/prudhvideep/leetcode/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/prudhvideep/leetcode/tree/master/0440-k-th-smallest-in-lexicographical-order) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/prudhvideep/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Prefix Sum
 |  |
 | ------- |
