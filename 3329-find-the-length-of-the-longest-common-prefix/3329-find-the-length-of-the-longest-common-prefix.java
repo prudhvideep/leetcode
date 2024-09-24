@@ -13,25 +13,12 @@ class Solution {
     return maxLen;
   }
 
-  public List<Integer> getPrefix(int a) {
-    List<Integer> list = new ArrayList<>();
-
-    while (a != 0) {
-      list.add(a % 10);
-      a = a / 10;
-    }
-
-    Collections.reverse(list);
-
-    return list;
-  }
-
   public int search(Trie trie, int e) {
     Trie temp = trie;
-    List<Integer> list = getPrefix(e);
+    String list = String.valueOf(e);
     int len = 0;
-    for (int i = 0; i < list.size(); i++) {
-      int id = list.get(i);
+    for (int i = 0; i < list.length(); i++) {
+      int id = list.charAt(i)-'0';
       if (temp.ele[id] == null) {
         break;
       }
@@ -47,15 +34,15 @@ class Solution {
   public void insert(Trie trie, int e) {
     Trie temp = trie;
 
-    List<Integer> list = getPrefix(e);
+    String list = String.valueOf(e);
 
-    for (int i = 0; i < list.size(); i++) {
-      int id = list.get(i);
+    for (int i = 0; i < list.length(); i++) {
+      int id = list.charAt(i)-'0';
       if (temp.ele[id] == null) {
         temp.ele[id] = new Trie();
       }
 
-      if (i == list.size() - 1) {
+      if (i == list.length() - 1) {
         temp.isEnd[id] = true;
       }
 
