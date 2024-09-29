@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/prudhvideep/leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/prudhvideep/leetcode/tree/master/0146-lru-cache) |
 | [0203-remove-linked-list-elements](https://github.com/prudhvideep/leetcode/tree/master/0203-remove-linked-list-elements) |
+| [0432-all-oone-data-structure](https://github.com/prudhvideep/leetcode/tree/master/0432-all-oone-data-structure) |
 | [0859-design-circular-deque](https://github.com/prudhvideep/leetcode/tree/master/0859-design-circular-deque) |
 | [1484-linked-list-in-binary-tree](https://github.com/prudhvideep/leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [2411-spiral-matrix-iv](https://github.com/prudhvideep/leetcode/tree/master/2411-spiral-matrix-iv) |
@@ -167,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/prudhvideep/leetcode/tree/master/0146-lru-cache) |
 | [0187-repeated-dna-sequences](https://github.com/prudhvideep/leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0264-ugly-number-ii](https://github.com/prudhvideep/leetcode/tree/master/0264-ugly-number-ii) |
+| [0432-all-oone-data-structure](https://github.com/prudhvideep/leetcode/tree/master/0432-all-oone-data-structure) |
 | [0508-most-frequent-subtree-sum](https://github.com/prudhvideep/leetcode/tree/master/0508-most-frequent-subtree-sum) |
 | [0906-walking-robot-simulation](https://github.com/prudhvideep/leetcode/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/prudhvideep/leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
@@ -185,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/prudhvideep/leetcode/tree/master/0146-lru-cache) |
 | [0173-binary-search-tree-iterator](https://github.com/prudhvideep/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/prudhvideep/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0432-all-oone-data-structure](https://github.com/prudhvideep/leetcode/tree/master/0432-all-oone-data-structure) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/prudhvideep/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0859-design-circular-deque](https://github.com/prudhvideep/leetcode/tree/master/0859-design-circular-deque) |
 | [2104-operations-on-tree](https://github.com/prudhvideep/leetcode/tree/master/2104-operations-on-tree) |
@@ -192,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/prudhvideep/leetcode/tree/master/0146-lru-cache) |
+| [0432-all-oone-data-structure](https://github.com/prudhvideep/leetcode/tree/master/0432-all-oone-data-structure) |
 ## String
 |  |
 | ------- |
