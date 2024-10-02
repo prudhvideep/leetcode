@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0859-design-circular-deque](https://github.com/prudhvideep/leetcode/tree/master/0859-design-circular-deque) |
 | [0890-lemonade-change](https://github.com/prudhvideep/leetcode/tree/master/0890-lemonade-change) |
 | [0906-walking-robot-simulation](https://github.com/prudhvideep/leetcode/tree/master/0906-walking-robot-simulation) |
+| [1256-rank-transform-of-an-array](https://github.com/prudhvideep/leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1325-path-with-maximum-probability](https://github.com/prudhvideep/leetcode/tree/master/1325-path-with-maximum-probability) |
 | [1333-sort-the-jumbled-numbers](https://github.com/prudhvideep/leetcode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1435-xor-queries-of-a-subarray](https://github.com/prudhvideep/leetcode/tree/master/1435-xor-queries-of-a-subarray) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/prudhvideep/leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 | [0539-minimum-time-difference](https://github.com/prudhvideep/leetcode/tree/master/0539-minimum-time-difference) |
 | [0658-find-k-closest-elements](https://github.com/prudhvideep/leetcode/tree/master/0658-find-k-closest-elements) |
+| [1256-rank-transform-of-an-array](https://github.com/prudhvideep/leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/prudhvideep/leetcode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/prudhvideep/leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/prudhvideep/leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -175,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0906-walking-robot-simulation](https://github.com/prudhvideep/leetcode/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/prudhvideep/leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/prudhvideep/leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1256-rank-transform-of-an-array](https://github.com/prudhvideep/leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/prudhvideep/leetcode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/prudhvideep/leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/prudhvideep/leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
