@@ -3,8 +3,8 @@ class Solution:
         if len(s2) < len(s1):
             return False
 
-        ct1 = [0 for i in range(26)]
-        ct2 = [0 for i in range(26)]
+        ct1 = [0] * 26
+        ct2 = [0] * 26
 
         for c in s1:
             id = ord(c) - ord("a")
