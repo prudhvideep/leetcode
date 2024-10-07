@@ -1,21 +1,20 @@
 class Solution:
     def minLength(self, s: str) -> int:
-        while True:
-          patFound = False
-          for i in range(len(s)-1):
-            if s[i] == 'A' and s[i+1] == 'B':
-              s = s[:i] + s[(i+2):]
-              patFound = True 
-              break
-            
-            if s[i] == 'C' and s[i+1] == 'D':
-              s = s[:i] + s[(i+2):]
-              patFound = True
-              break
+        stack = []
+
+        for c in s:
+          if len(stack) == 0:
+            stack.append(c)
+            continue
           
-          if not patFound: 
-            break
+          if c == 'D' and stack[-1] == 'C':
+            stack.pop()
+            continue
 
-        return len(s)
-
-            
+          if c == 'B' and stack[-1] == 'A':
+            stack.pop()
+            continue
+          
+          stack.append(c)
+        
+        return len(stack)
