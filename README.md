@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0859-design-circular-deque](https://github.com/prudhvideep/leetcode/tree/master/0859-design-circular-deque) |
 | [0890-lemonade-change](https://github.com/prudhvideep/leetcode/tree/master/0890-lemonade-change) |
 | [0906-walking-robot-simulation](https://github.com/prudhvideep/leetcode/tree/master/0906-walking-robot-simulation) |
+| [1002-maximum-width-ramp](https://github.com/prudhvideep/leetcode/tree/master/1002-maximum-width-ramp) |
 | [1256-rank-transform-of-an-array](https://github.com/prudhvideep/leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1325-path-with-maximum-probability](https://github.com/prudhvideep/leetcode/tree/master/1325-path-with-maximum-probability) |
 | [1333-sort-the-jumbled-numbers](https://github.com/prudhvideep/leetcode/tree/master/1333-sort-the-jumbled-numbers) |
@@ -268,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0173-binary-search-tree-iterator](https://github.com/prudhvideep/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0402-remove-k-digits](https://github.com/prudhvideep/leetcode/tree/master/0402-remove-k-digits) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/prudhvideep/leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [1002-maximum-width-ramp](https://github.com/prudhvideep/leetcode/tree/master/1002-maximum-width-ramp) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/prudhvideep/leetcode/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/prudhvideep/leetcode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/prudhvideep/leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -367,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0402-remove-k-digits](https://github.com/prudhvideep/leetcode/tree/master/0402-remove-k-digits) |
+| [1002-maximum-width-ramp](https://github.com/prudhvideep/leetcode/tree/master/1002-maximum-width-ramp) |
 ## Bit Manipulation
 |  |
 | ------- |
