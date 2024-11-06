@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2727-number-of-senior-citizens](https://github.com/prudhvideep/leetcode/tree/master/2727-number-of-senior-citizens) |
 | [2881-split-strings-by-separator](https://github.com/prudhvideep/leetcode/tree/master/2881-split-strings-by-separator) |
 | [2884-length-of-the-longest-valid-substring](https://github.com/prudhvideep/leetcode/tree/master/2884-length-of-the-longest-valid-substring) |
+| [3291-find-if-array-can-be-sorted](https://github.com/prudhvideep/leetcode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/prudhvideep/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/prudhvideep/leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Sorting
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/prudhvideep/leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/prudhvideep/leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/prudhvideep/leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3291-find-if-array-can-be-sorted](https://github.com/prudhvideep/leetcode/tree/master/3291-find-if-array-can-be-sorted) |
 ## Tree
 |  |
 | ------- |
@@ -409,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/prudhvideep/leetcode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/prudhvideep/leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/prudhvideep/leetcode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [3291-find-if-array-can-be-sorted](https://github.com/prudhvideep/leetcode/tree/master/3291-find-if-array-can-be-sorted) |
 ## Simulation
 |  |
 | ------- |
