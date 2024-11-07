@@ -1,23 +1,21 @@
 func largestCombination(candidates []int) int {
-    sum := make([]int,32)
+    count,maxCt := 0,0
 
-    for _,c := range candidates{
-      mask := 1
+    maxE := slices.Max(candidates)
 
-      for i := 0;i < 32;i++{
-        sum[i] += ((c & (mask << i)) / (mask << i))
+    for b := 1; b <= maxE; b = b << 1 {
+      count = 0
+
+      for _,e := range candidates{
+        if b & e > 0 {
+          count++
+        }
       }
-    }
 
-    maxL := 0
-
-    for _,n := range sum{
-      if n > maxL {
-        maxL = n
+      if count > maxCt{
+        maxCt = count
       }
-    }
+    } 
 
-    return maxL
-
-
+    return maxCt
 }
