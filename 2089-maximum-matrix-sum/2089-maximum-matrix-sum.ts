@@ -2,14 +2,14 @@ function maxMatrixSum(matrix: number[][]): number {
     let totSum = 0;
     let nCount = 0, le = Number.MAX_VALUE;
 
-    for(let i = 0;i < matrix.length;i++){
-      for (let j = 0; j < matrix[i].length;j++){
-        if(matrix[i][j] <= 0){
+    for(let row of matrix){
+      for (let ele of row){
+        if(ele <= 0){
           nCount++;
         }
 
-        totSum += Math.abs(matrix[i][j]);
-        le = Math.min(le,Math.abs(matrix[i][j]));
+        totSum += Math.abs(ele);
+        le = Math.min(le,Math.abs(ele));
       }
     }
 
