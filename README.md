@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2035-count-sub-islands](https://github.com/prudhvideep/leetcode/tree/master/2035-count-sub-islands) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/prudhvideep/leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/prudhvideep/leetcode/tree/master/2067-maximum-number-of-points-with-cost) |
+| [2089-maximum-matrix-sum](https://github.com/prudhvideep/leetcode/tree/master/2089-maximum-matrix-sum) |
 | [2104-operations-on-tree](https://github.com/prudhvideep/leetcode/tree/master/2104-operations-on-tree) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/prudhvideep/leetcode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2155-find-missing-observations](https://github.com/prudhvideep/leetcode/tree/master/2155-find-missing-observations) |
@@ -344,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0670-maximum-swap](https://github.com/prudhvideep/leetcode/tree/master/0670-maximum-swap) |
 | [0890-lemonade-change](https://github.com/prudhvideep/leetcode/tree/master/0890-lemonade-change) |
 | [1304-longest-happy-string](https://github.com/prudhvideep/leetcode/tree/master/1304-longest-happy-string) |
+| [2089-maximum-matrix-sum](https://github.com/prudhvideep/leetcode/tree/master/2089-maximum-matrix-sum) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/prudhvideep/leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/prudhvideep/leetcode/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/prudhvideep/leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -451,6 +453,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/prudhvideep/leetcode/tree/master/0212-word-search-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/prudhvideep/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [2035-count-sub-islands](https://github.com/prudhvideep/leetcode/tree/master/2035-count-sub-islands) |
+| [2089-maximum-matrix-sum](https://github.com/prudhvideep/leetcode/tree/master/2089-maximum-matrix-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/prudhvideep/leetcode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2411-spiral-matrix-iv](https://github.com/prudhvideep/leetcode/tree/master/2411-spiral-matrix-iv) |
 ## Trie
