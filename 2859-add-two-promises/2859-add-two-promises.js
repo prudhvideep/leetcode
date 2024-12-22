@@ -8,7 +8,7 @@ var addTwoPromises = async function(promise1, promise2) {
 
     const v2 = await promise2
 
-    return (v1+v2)
+    return new Promise((resolve) => resolve(v1+v2))
 };
 
 /**
