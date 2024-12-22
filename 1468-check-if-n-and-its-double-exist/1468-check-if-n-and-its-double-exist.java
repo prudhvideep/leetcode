@@ -1,29 +1,21 @@
 class Solution {
     public boolean checkIfExist(int[] arr) {
-       int cZero = 0;
-
-       for (int ele : arr) {
-          if(ele == 0){
-            cZero++;
-          }
-
-          if(cZero > 1) return true;
-       }
-
-        Set <Integer> set = new HashSet<>();
-        Set <Integer> dset = new HashSet<>();
-
-        for( int ele : arr ){
-          set.add(ele);
-          dset.add(2*ele);
+      for (int i = 0; i < arr.length; i++){
+        int id = find(arr,arr[i]);
+        if(id != -1 && id != i){
+          return true;
         }
+      }
+      return false;
+    }
 
-        for (int ele : set){
-          if(dset.contains(ele) && ele != 0){
-            return true;
-          }
+    public int find(int [] a,int e){
+      for(int i = 0;i < a.length;i++){
+        if(a[i]*2 == e){
+          return i;
         }
+      }
 
-        return false;
+      return -1;
     }
 }
