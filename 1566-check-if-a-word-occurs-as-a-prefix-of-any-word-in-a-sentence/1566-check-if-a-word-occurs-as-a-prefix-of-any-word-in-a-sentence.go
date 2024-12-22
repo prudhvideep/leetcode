@@ -1,15 +1,6 @@
 func isPrefix(word string, sWord string) bool {
-  if len(sWord) > len(word) {
-    return false
-  }
-    
-  for i := 0; i < len(sWord); i++ {
-    if word[i] != sWord[i] {
-      return false
-    }
-  }
-
-  return true
+  
+  return strings.HasPrefix(word,sWord)
 
 }
 
