@@ -11,17 +11,20 @@ var promiseAll = function (functions) {
   let rsPm = 0
 
   return new Promise((rs, rj) => {
-    functions.forEach((func, i) => {
-      func().then((res) => {
-        retArr[i] = res
-        rsPm++
-        if (rsPm === functions.length) {
-          rs(retArr)
-        }
-      }).catch((error) => rj(error))
-    })
+    for (let i = 0; i < functions.length; i++){
+      let func = functions[i]
+    func().then((res) => {
+      retArr[i] = res
+      rsPm++
+      if (rsPm === functions.length) {
+        rs(retArr)
+      }
+    }).catch((error) => rj(error))
+  }
 
-  })
+
+
+})
 };
 
 /**
