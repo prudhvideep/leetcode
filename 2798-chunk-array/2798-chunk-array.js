@@ -5,21 +5,10 @@
  */
 var chunk = function(arr, size) {
     let retArr = []
-    let cArr = []
-
-    for(let e in arr){
-      if(cArr.length < size){
-        cArr.push(arr[e])
-      }else{
-        retArr = [...retArr,cArr]
-        cArr = new Array()
-        cArr.push(arr[e])
-      }  
+    
+    for(let i = 0;i < arr.length; i+=size){
+      retArr.push(arr.slice(i,i+size))
     }
 
-    if(cArr.length != 0){
-      retArr = [...retArr,cArr]
-    }
-
-    return retArr
+    return retArr;
 };
