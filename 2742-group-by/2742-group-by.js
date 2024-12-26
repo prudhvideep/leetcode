@@ -8,10 +8,10 @@ Array.prototype.groupBy = function (fn) {
 
   for (let e of this) {
     const key = fn(e)
-    if(!obj[key]){
+    if(!(key in obj)){
       obj[key] = [];
     }
-    obj[key].push(e); 
+    obj[key].push(e)
   }
 
   return obj;
