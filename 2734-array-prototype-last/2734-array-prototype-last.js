@@ -6,7 +6,7 @@ Array.prototype.last = function() {
       return -1
     }
 
-    return this.at(this.length-1)
+    return this[this.length-1]
 };
 
 /**
