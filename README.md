@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0216-combination-sum-iii](https://github.com/prudhvideep/leetcode/tree/master/0216-combination-sum-iii) |
 | [0228-summary-ranges](https://github.com/prudhvideep/leetcode/tree/master/0228-summary-ranges) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/prudhvideep/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0494-target-sum](https://github.com/prudhvideep/leetcode/tree/master/0494-target-sum) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/prudhvideep/leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 | [0539-minimum-time-difference](https://github.com/prudhvideep/leetcode/tree/master/0539-minimum-time-difference) |
 | [0624-maximum-distance-in-arrays](https://github.com/prudhvideep/leetcode/tree/master/0624-maximum-distance-in-arrays) |
@@ -289,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0264-ugly-number-ii](https://github.com/prudhvideep/leetcode/tree/master/0264-ugly-number-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/prudhvideep/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0337-house-robber-iii](https://github.com/prudhvideep/leetcode/tree/master/0337-house-robber-iii) |
+| [0494-target-sum](https://github.com/prudhvideep/leetcode/tree/master/0494-target-sum) |
 | [0650-2-keys-keyboard](https://github.com/prudhvideep/leetcode/tree/master/0650-2-keys-keyboard) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/prudhvideep/leetcode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/prudhvideep/leetcode/tree/master/2067-maximum-number-of-points-with-cost) |
@@ -395,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/prudhvideep/leetcode/tree/master/0040-combination-sum-ii) |
 | [0212-word-search-ii](https://github.com/prudhvideep/leetcode/tree/master/0212-word-search-ii) |
 | [0216-combination-sum-iii](https://github.com/prudhvideep/leetcode/tree/master/0216-combination-sum-iii) |
+| [0494-target-sum](https://github.com/prudhvideep/leetcode/tree/master/0494-target-sum) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/prudhvideep/leetcode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/prudhvideep/leetcode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Math
