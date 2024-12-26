@@ -6,12 +6,12 @@ Array.prototype.groupBy = function (fn) {
 
   const obj = {}
 
-
   for (let e of this) {
-    if(!obj[fn(e)]){
-      obj[fn(e)] = [];
+    const key = fn(e)
+    if(!obj[key]){
+      obj[key] = [];
     }
-    obj[fn(e)].push(e); 
+    obj[key].push(e); 
   }
 
   return obj;
