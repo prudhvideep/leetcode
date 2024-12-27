@@ -4,32 +4,20 @@
  * @return {Array}
  */
 var join = function(arr1, arr2) {
-    let set2 = new Set(arr2.map((ele) => ele.id));
-    let map1 = new Map(arr1.map((ele,id) => [ele.id , id]));
+    let result = {}
 
-    let retArr = arr1.filter((ele) => {
-      if(set2.has(ele.id)){
-        return false;
-      }
-
-      return true;
-    })
+    arr1.forEach((ele) => {result[ele.id] = ele})
 
     arr2.forEach((ele) => {
-      if(map1.has(ele.id)){
-        let ele1 = arr1[map1.get(ele.id)]
-        let newEle = {
-         ...ele1,
-         ...ele
+      if(result[ele.id]){
+        result[ele.id] = {
+          ...result[ele.id],
+          ...ele
         }
-
-        retArr.push(newEle);
-        return;
+      }else{
+        result[ele.id] = ele;
       }
-      retArr.push(ele);
     })
 
-    retArr.sort((a,b) => a.id - b.id)
-
-    return retArr
+    return Object.values(result);
 };
