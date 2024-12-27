@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0890-lemonade-change](https://github.com/prudhvideep/leetcode/tree/master/0890-lemonade-change) |
 | [0906-walking-robot-simulation](https://github.com/prudhvideep/leetcode/tree/master/0906-walking-robot-simulation) |
 | [1002-maximum-width-ramp](https://github.com/prudhvideep/leetcode/tree/master/1002-maximum-width-ramp) |
+| [1063-best-sightseeing-pair](https://github.com/prudhvideep/leetcode/tree/master/1063-best-sightseeing-pair) |
 | [1256-rank-transform-of-an-array](https://github.com/prudhvideep/leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1325-path-with-maximum-probability](https://github.com/prudhvideep/leetcode/tree/master/1325-path-with-maximum-probability) |
 | [1333-sort-the-jumbled-numbers](https://github.com/prudhvideep/leetcode/tree/master/1333-sort-the-jumbled-numbers) |
@@ -292,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0337-house-robber-iii](https://github.com/prudhvideep/leetcode/tree/master/0337-house-robber-iii) |
 | [0494-target-sum](https://github.com/prudhvideep/leetcode/tree/master/0494-target-sum) |
 | [0650-2-keys-keyboard](https://github.com/prudhvideep/leetcode/tree/master/0650-2-keys-keyboard) |
+| [1063-best-sightseeing-pair](https://github.com/prudhvideep/leetcode/tree/master/1063-best-sightseeing-pair) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/prudhvideep/leetcode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/prudhvideep/leetcode/tree/master/2067-maximum-number-of-points-with-cost) |
 ## Stack
