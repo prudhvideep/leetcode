@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2132-convert-1d-array-into-2d-array](https://github.com/prudhvideep/leetcode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2155-find-missing-observations](https://github.com/prudhvideep/leetcode/tree/master/2155-find-missing-observations) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/prudhvideep/leetcode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/prudhvideep/leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/prudhvideep/leetcode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2411-spiral-matrix-iv](https://github.com/prudhvideep/leetcode/tree/master/2411-spiral-matrix-iv) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/prudhvideep/leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -278,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/prudhvideep/leetcode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/prudhvideep/leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2243-check-if-all-as-appears-before-all-bs](https://github.com/prudhvideep/leetcode/tree/master/2243-check-if-all-as-appears-before-all-bs) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/prudhvideep/leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/prudhvideep/leetcode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2580-circular-sentence](https://github.com/prudhvideep/leetcode/tree/master/2580-circular-sentence) |
 | [2727-number-of-senior-citizens](https://github.com/prudhvideep/leetcode/tree/master/2727-number-of-senior-citizens) |
@@ -513,6 +515,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0812-rotate-string](https://github.com/prudhvideep/leetcode/tree/master/0812-rotate-string) |
 | [1524-string-matching-in-an-array](https://github.com/prudhvideep/leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/prudhvideep/leetcode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/prudhvideep/leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/prudhvideep/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Hash Function
 |  |
