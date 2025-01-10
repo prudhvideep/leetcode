@@ -1,25 +1,18 @@
 func waysToSplitArray(nums []int) int {
-    splits := 0
-    n := len(nums)
-    ps := make([]int,n)
+   prefix,suffix,splits := 0,0,0
 
-    for i := range nums {
-      if i == 0 {
-        ps[i] = nums[i]
-        continue
-      }
+   for i:=0;i < len(nums);i++ {
+    suffix += nums[i]
+   }
 
-      ps[i] = nums[i] + ps[i-1]
+   for i:=0;i < len(nums)-1;i++ {
+    suffix -= nums[i]
+    prefix += nums[i]
+
+    if prefix >= suffix {
+      splits++
     }
+   }
 
-    for i := 0; i < n-1;i++ {
-      ls := ps[i]
-      rs := ps[n-1] - ps[i]
-
-      if ls >= rs {
-        splits++
-      }
-    }
-
-    return splits
+   return splits
 }
