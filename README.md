@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0859-design-circular-deque](https://github.com/prudhvideep/leetcode/tree/master/0859-design-circular-deque) |
 | [0890-lemonade-change](https://github.com/prudhvideep/leetcode/tree/master/0890-lemonade-change) |
 | [0906-walking-robot-simulation](https://github.com/prudhvideep/leetcode/tree/master/0906-walking-robot-simulation) |
+| [0952-word-subsets](https://github.com/prudhvideep/leetcode/tree/master/0952-word-subsets) |
 | [1002-maximum-width-ramp](https://github.com/prudhvideep/leetcode/tree/master/1002-maximum-width-ramp) |
 | [1063-best-sightseeing-pair](https://github.com/prudhvideep/leetcode/tree/master/1063-best-sightseeing-pair) |
 | [1256-rank-transform-of-an-array](https://github.com/prudhvideep/leetcode/tree/master/1256-rank-transform-of-an-array) |
@@ -210,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/prudhvideep/leetcode/tree/master/0567-permutation-in-string) |
 | [0906-walking-robot-simulation](https://github.com/prudhvideep/leetcode/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/prudhvideep/leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
+| [0952-word-subsets](https://github.com/prudhvideep/leetcode/tree/master/0952-word-subsets) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/prudhvideep/leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1256-rank-transform-of-an-array](https://github.com/prudhvideep/leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/prudhvideep/leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -266,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0592-fraction-addition-and-subtraction](https://github.com/prudhvideep/leetcode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0812-rotate-string](https://github.com/prudhvideep/leetcode/tree/master/0812-rotate-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/prudhvideep/leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
+| [0952-word-subsets](https://github.com/prudhvideep/leetcode/tree/master/0952-word-subsets) |
 | [1197-parsing-a-boolean-expression](https://github.com/prudhvideep/leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1304-longest-happy-string](https://github.com/prudhvideep/leetcode/tree/master/1304-longest-happy-string) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/prudhvideep/leetcode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
