@@ -22,18 +22,12 @@ func canConstruct(s string, k int) bool {
 		}
 	}
 
-	oc, ec := 0, 0
+	oc := 0
 	for _, v := range mp {
-		if v%2 == 0 {
-			ec++
-		} else {
+		if v%2 != 0 {
 			oc++
 		}
 	}
-
-	// if ec%k != 0 {
-	// 	return false
-	// }
 
 	if oc > k {
 		return false
