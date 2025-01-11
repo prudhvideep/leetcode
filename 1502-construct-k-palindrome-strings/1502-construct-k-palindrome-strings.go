@@ -1,30 +1,17 @@
 func canConstruct(s string, k int) bool {
-	mp := make(map[string]int)
-
-  if len(s) < k {
-    return false
-  }
-
-	for _, v := range s {
-		mp[string(v)]++
+	if len(s) < k {
+		return false
 	}
 
-	for key, v := range mp {
-		mul := 2
-		for mul*k <= v {
+	mp := make([]int, 26)
 
-			mul += 2
-		}
-		mp[key] = v - (max(mul-2, 2) * k)
-
-		if mp[key] == 0 {
-			delete(mp, key)
-		}
+	for _, c := range s {
+		mp[c-'a']++
 	}
 
 	oc := 0
 	for _, v := range mp {
-		if v%2 != 0 {
+		if v%2 == 1 {
 			oc++
 		}
 	}
@@ -34,12 +21,5 @@ func canConstruct(s string, k int) bool {
 	}
 
 	return true
-}
 
-func max(a, b int) int {
-	if a >= b {
-		return a
-	}
-
-	return b
 }
