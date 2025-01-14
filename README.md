@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2616-maximal-score-after-applying-k-operations](https://github.com/prudhvideep/leetcode/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/prudhvideep/leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2727-number-of-senior-citizens](https://github.com/prudhvideep/leetcode/tree/master/2727-number-of-senior-citizens) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/prudhvideep/leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2881-split-strings-by-separator](https://github.com/prudhvideep/leetcode/tree/master/2881-split-strings-by-separator) |
 | [2884-length-of-the-longest-valid-substring](https://github.com/prudhvideep/leetcode/tree/master/2884-length-of-the-longest-valid-substring) |
 | [3291-find-if-array-can-be-sorted](https://github.com/prudhvideep/leetcode/tree/master/3291-find-if-array-can-be-sorted) |
@@ -232,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/prudhvideep/leetcode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/prudhvideep/leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/prudhvideep/leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/prudhvideep/leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2884-length-of-the-longest-valid-substring](https://github.com/prudhvideep/leetcode/tree/master/2884-length-of-the-longest-valid-substring) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/prudhvideep/leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/prudhvideep/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -473,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/prudhvideep/leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/prudhvideep/leetcode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/prudhvideep/leetcode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/prudhvideep/leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3291-find-if-array-can-be-sorted](https://github.com/prudhvideep/leetcode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3394-minimum-array-end](https://github.com/prudhvideep/leetcode/tree/master/3394-minimum-array-end) |
 ## Simulation
