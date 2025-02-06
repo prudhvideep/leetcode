@@ -1,38 +1,20 @@
-type Pair struct {
-	a, b int
-}
 
 func tupleSameProduct(nums []int) int {
-	mp := make(map[int][]Pair)
+	mp := make(map[int]int)
 
 	for i := 0; i < len(nums)-1; i++ {
 		for j := i + 1; j < len(nums); j++ {
 			prod := nums[i] * nums[j]
 
-			pair := Pair{
-				a: nums[i],
-				b: nums[j],
-			}
-
-			if _, ok := mp[prod]; ok {
-				mp[prod] = append(mp[prod], pair)
-			} else {
-				mp[prod] = append(mp[prod], pair)
-			}
+			mp[prod]++
 		}
 	}
 
 	tuples := 0
 
-	for _, v := range mp {
-		if len(v) > 1 {
-			l := len(v)
-
-			n := ((l*(l - 1)) / 2)
-      
-      tuples += n*8
-		}
+	for _, n := range mp {
+		tuples += n * (n-1) * 8
 	}
 
-	return tuples
+	return tuples/2
 }
