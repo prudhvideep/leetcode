@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1694-make-sum-divisible-by-p](https://github.com/prudhvideep/leetcode/tree/master/1694-make-sum-divisible-by-p) |
 | [1755-defuse-the-bomb](https://github.com/prudhvideep/leetcode/tree/master/1755-defuse-the-bomb) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/prudhvideep/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
+| [1849-maximum-absolute-sum-of-any-subarray](https://github.com/prudhvideep/leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1876-map-of-highest-peak](https://github.com/prudhvideep/leetcode/tree/master/1876-map-of-highest-peak) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/prudhvideep/leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1923-sentence-similarity-iii](https://github.com/prudhvideep/leetcode/tree/master/1923-sentence-similarity-iii) |
@@ -349,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1025-minimum-cost-for-tickets](https://github.com/prudhvideep/leetcode/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/prudhvideep/leetcode/tree/master/1063-best-sightseeing-pair) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/prudhvideep/leetcode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [1849-maximum-absolute-sum-of-any-subarray](https://github.com/prudhvideep/leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/prudhvideep/leetcode/tree/master/2067-maximum-number-of-points-with-cost) |
 ## Stack
 |  |
