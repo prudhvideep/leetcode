@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/prudhvideep/leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 | [0539-minimum-time-difference](https://github.com/prudhvideep/leetcode/tree/master/0539-minimum-time-difference) |
 | [0658-find-k-closest-elements](https://github.com/prudhvideep/leetcode/tree/master/0658-find-k-closest-elements) |
+| [0778-reorganize-string](https://github.com/prudhvideep/leetcode/tree/master/0778-reorganize-string) |
 | [1256-rank-transform-of-an-array](https://github.com/prudhvideep/leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/prudhvideep/leetcode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/prudhvideep/leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -234,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0432-all-oone-data-structure](https://github.com/prudhvideep/leetcode/tree/master/0432-all-oone-data-structure) |
 | [0508-most-frequent-subtree-sum](https://github.com/prudhvideep/leetcode/tree/master/0508-most-frequent-subtree-sum) |
 | [0567-permutation-in-string](https://github.com/prudhvideep/leetcode/tree/master/0567-permutation-in-string) |
+| [0778-reorganize-string](https://github.com/prudhvideep/leetcode/tree/master/0778-reorganize-string) |
 | [0906-walking-robot-simulation](https://github.com/prudhvideep/leetcode/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/prudhvideep/leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0952-word-subsets](https://github.com/prudhvideep/leetcode/tree/master/0952-word-subsets) |
@@ -305,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0564-find-the-closest-palindrome](https://github.com/prudhvideep/leetcode/tree/master/0564-find-the-closest-palindrome) |
 | [0567-permutation-in-string](https://github.com/prudhvideep/leetcode/tree/master/0567-permutation-in-string) |
 | [0592-fraction-addition-and-subtraction](https://github.com/prudhvideep/leetcode/tree/master/0592-fraction-addition-and-subtraction) |
+| [0778-reorganize-string](https://github.com/prudhvideep/leetcode/tree/master/0778-reorganize-string) |
 | [0812-rotate-string](https://github.com/prudhvideep/leetcode/tree/master/0812-rotate-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/prudhvideep/leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0952-word-subsets](https://github.com/prudhvideep/leetcode/tree/master/0952-word-subsets) |
@@ -431,6 +434,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/prudhvideep/leetcode/tree/master/0402-remove-k-digits) |
 | [0624-maximum-distance-in-arrays](https://github.com/prudhvideep/leetcode/tree/master/0624-maximum-distance-in-arrays) |
 | [0670-maximum-swap](https://github.com/prudhvideep/leetcode/tree/master/0670-maximum-swap) |
+| [0778-reorganize-string](https://github.com/prudhvideep/leetcode/tree/master/0778-reorganize-string) |
 | [0890-lemonade-change](https://github.com/prudhvideep/leetcode/tree/master/0890-lemonade-change) |
 | [1304-longest-happy-string](https://github.com/prudhvideep/leetcode/tree/master/1304-longest-happy-string) |
 | [1502-construct-k-palindrome-strings](https://github.com/prudhvideep/leetcode/tree/master/1502-construct-k-palindrome-strings) |
@@ -445,6 +449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0778-reorganize-string](https://github.com/prudhvideep/leetcode/tree/master/0778-reorganize-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/prudhvideep/leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1364-tuple-with-same-product](https://github.com/prudhvideep/leetcode/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/prudhvideep/leetcode/tree/master/1396-count-servers-that-communicate) |
@@ -462,6 +467,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0264-ugly-number-ii](https://github.com/prudhvideep/leetcode/tree/master/0264-ugly-number-ii) |
 | [0658-find-k-closest-elements](https://github.com/prudhvideep/leetcode/tree/master/0658-find-k-closest-elements) |
+| [0778-reorganize-string](https://github.com/prudhvideep/leetcode/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/prudhvideep/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1304-longest-happy-string](https://github.com/prudhvideep/leetcode/tree/master/1304-longest-happy-string) |
 | [1325-path-with-maximum-probability](https://github.com/prudhvideep/leetcode/tree/master/1325-path-with-maximum-probability) |
