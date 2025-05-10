@@ -255,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/prudhvideep/leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2104-operations-on-tree](https://github.com/prudhvideep/leetcode/tree/master/2104-operations-on-tree) |
 | [2107-find-unique-binary-string](https://github.com/prudhvideep/leetcode/tree/master/2107-find-unique-binary-string) |
+| [2340-total-appeal-of-a-string](https://github.com/prudhvideep/leetcode/tree/master/2340-total-appeal-of-a-string) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/prudhvideep/leetcode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2434-design-a-number-container-system](https://github.com/prudhvideep/leetcode/tree/master/2434-design-a-number-container-system) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/prudhvideep/leetcode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
@@ -332,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/prudhvideep/leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2243-check-if-all-as-appears-before-all-bs](https://github.com/prudhvideep/leetcode/tree/master/2243-check-if-all-as-appears-before-all-bs) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/prudhvideep/leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
+| [2340-total-appeal-of-a-string](https://github.com/prudhvideep/leetcode/tree/master/2340-total-appeal-of-a-string) |
 | [2465-shifting-letters-ii](https://github.com/prudhvideep/leetcode/tree/master/2465-shifting-letters-ii) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/prudhvideep/leetcode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2580-circular-sentence](https://github.com/prudhvideep/leetcode/tree/master/2580-circular-sentence) |
@@ -365,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/prudhvideep/leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/prudhvideep/leetcode/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2205-find-good-days-to-rob-the-bank](https://github.com/prudhvideep/leetcode/tree/master/2205-find-good-days-to-rob-the-bank) |
+| [2340-total-appeal-of-a-string](https://github.com/prudhvideep/leetcode/tree/master/2340-total-appeal-of-a-string) |
 ## Stack
 |  |
 | ------- |
