@@ -334,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/prudhvideep/leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2243-check-if-all-as-appears-before-all-bs](https://github.com/prudhvideep/leetcode/tree/master/2243-check-if-all-as-appears-before-all-bs) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/prudhvideep/leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
+| [2325-number-of-ways-to-select-buildings](https://github.com/prudhvideep/leetcode/tree/master/2325-number-of-ways-to-select-buildings) |
 | [2340-total-appeal-of-a-string](https://github.com/prudhvideep/leetcode/tree/master/2340-total-appeal-of-a-string) |
 | [2465-shifting-letters-ii](https://github.com/prudhvideep/leetcode/tree/master/2465-shifting-letters-ii) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/prudhvideep/leetcode/tree/master/2494-sum-of-prefix-scores-of-strings) |
@@ -368,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/prudhvideep/leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/prudhvideep/leetcode/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2205-find-good-days-to-rob-the-bank](https://github.com/prudhvideep/leetcode/tree/master/2205-find-good-days-to-rob-the-bank) |
+| [2325-number-of-ways-to-select-buildings](https://github.com/prudhvideep/leetcode/tree/master/2325-number-of-ways-to-select-buildings) |
 | [2340-total-appeal-of-a-string](https://github.com/prudhvideep/leetcode/tree/master/2340-total-appeal-of-a-string) |
 ## Stack
 |  |
@@ -612,6 +614,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/prudhvideep/leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2145-grid-game](https://github.com/prudhvideep/leetcode/tree/master/2145-grid-game) |
 | [2205-find-good-days-to-rob-the-bank](https://github.com/prudhvideep/leetcode/tree/master/2205-find-good-days-to-rob-the-bank) |
+| [2325-number-of-ways-to-select-buildings](https://github.com/prudhvideep/leetcode/tree/master/2325-number-of-ways-to-select-buildings) |
 | [2358-number-of-ways-to-split-array](https://github.com/prudhvideep/leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/prudhvideep/leetcode/tree/master/2465-shifting-letters-ii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/prudhvideep/leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
