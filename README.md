@@ -330,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/prudhvideep/leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/prudhvideep/leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1923-sentence-similarity-iii](https://github.com/prudhvideep/leetcode/tree/master/1923-sentence-similarity-iii) |
+| [1994-minimum-number-of-swaps-to-make-the-binary-string-alternating](https://github.com/prudhvideep/leetcode/tree/master/1994-minimum-number-of-swaps-to-make-the-binary-string-alternating) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/prudhvideep/leetcode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/prudhvideep/leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2107-find-unique-binary-string](https://github.com/prudhvideep/leetcode/tree/master/2107-find-unique-binary-string) |
@@ -449,6 +450,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1304-longest-happy-string](https://github.com/prudhvideep/leetcode/tree/master/1304-longest-happy-string) |
 | [1502-construct-k-palindrome-strings](https://github.com/prudhvideep/leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1829-maximum-units-on-a-truck](https://github.com/prudhvideep/leetcode/tree/master/1829-maximum-units-on-a-truck) |
+| [1994-minimum-number-of-swaps-to-make-the-binary-string-alternating](https://github.com/prudhvideep/leetcode/tree/master/1994-minimum-number-of-swaps-to-make-the-binary-string-alternating) |
 | [2089-maximum-matrix-sum](https://github.com/prudhvideep/leetcode/tree/master/2089-maximum-matrix-sum) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/prudhvideep/leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/prudhvideep/leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
