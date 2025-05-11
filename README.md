@@ -682,6 +682,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [1212-sequential-digits](https://github.com/prudhvideep/leetcode/tree/master/1212-sequential-digits) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/prudhvideep/leetcode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Ordered Set
 |  |
